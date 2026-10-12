@@ -5,7 +5,7 @@ import Footer from '../components/Footer.astro';
 import LangSuggest from '../components/LangSuggest.astro';
 import ConsentBanner from '../components/ConsentBanner.astro';
 import { locales, localePath, hreflang, ogLocale, type Locale } from '../i18n/locales';
-import { site } from '../site';
+import { site, brazilTimeZones } from '../site';
 import { organizationSchema, websiteSchema } from '../lib/schema';
 
 interface Props {
@@ -72,6 +72,13 @@ const graph = {
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={ogImage} />
 
+    <!-- WhatsApp só para visitantes no Brasil: marca <html data-br> pelo fuso do dispositivo; o CSS esconde [data-wa] sem ela -->
+    <script is:inline define:vars={{ zones: brazilTimeZones }}>
+      try {
+        var tz = Intl.DateTimeFormat().resolvedOptions().timeZone || '';
+        if (zones.indexOf(tz) !== -1) document.documentElement.setAttribute('data-br', '');
+      } catch (e) {}
+    </script>
     <link rel="alternate" type="text/plain" href="/llms.txt" title="LLM-readable summary" />
     {!noindex && <script type="application/ld+json" set:html={JSON.stringify(graph)} />}
     <!-- Analytics (GA4, GTM, Hotjar) só são carregados após o consentimento: veja src/scripts/consent.ts -->
@@ -87,6 +94,7 @@ const graph = {
     <LangSuggest lang={lang} page={page} />
 
     <a
+      data-wa
       href={site.whatsapp}
       target="_blank"
       rel="noopener"

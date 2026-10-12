@@ -27,7 +27,7 @@
         "Technical data sent with the form: the site language and the page it was sent from.",
         "Browsing data, collected only if you accept analytics cookies: IP address, device type, browser, pages visited, time on page, clicks, scrolling and traffic source.",
         "Preferences stored in your browser: your chosen language and your cookie decision.",
-        "When you click the WhatsApp button, you are taken to the app and the conversation follows WhatsApp’s own privacy policy."
+        "The WhatsApp button is shown only to visitors in Brazil. To decide this, we read the time zone set on your device directly in the browser; this information is not sent or stored. When you click the button, you are taken to the app and the conversation follows WhatsApp’s own privacy policy."
       ]
     },
     {

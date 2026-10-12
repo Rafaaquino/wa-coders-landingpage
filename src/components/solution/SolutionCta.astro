@@ -2,6 +2,9 @@
 interface Props { t: any; msgs: any; formId?: string; privacyHref: string; privacyLabel: string }
 const { t, msgs, formId = 'solution-form', privacyHref, privacyLabel } = Astro.props;
 const form = t.form;
+// "Telefone / WhatsApp": a menção ao WhatsApp só aparece para visitantes no Brasil
+const phoneBase = form.phoneLabel.replace(/\s*\/\s*WhatsApp\s*$/i, '');
+const phoneHasWa = phoneBase !== form.phoneLabel;
 const input = 'w-full rounded-lg border border-line bg-white px-3.5 py-2.5 text-[14.5px] focus:border-accent focus:outline-none focus:ring-4 focus:ring-accent-tint';
 ---
 
@@ -45,7 +48,7 @@ const input = 'w-full rounded-lg border border-line bg-white px-3.5 py-2.5 text-
             <input class={input} type="text" id="s-role" name="role" data-field-label={form.roleLabel} autocomplete="organization-title" placeholder={form.rolePlaceholder} />
           </div>
           <div>
-            <label class="mb-1.5 block text-xs font-semibold" for="s-phone">{form.phoneLabel}</label>
+            <label class="mb-1.5 block text-xs font-semibold" for="s-phone">{phoneBase}{phoneHasWa && <span data-wa> / WhatsApp</span>}</label>
             <input class={input} type="tel" id="s-phone" name="phone" data-field-label={form.phoneLabel} autocomplete="tel" placeholder={form.phonePlaceholder} required />
           </div>
         </div>

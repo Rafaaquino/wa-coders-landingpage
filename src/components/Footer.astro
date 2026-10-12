@@ -38,7 +38,7 @@ const links = [
         <div>
           <p class="mb-3 font-body text-xs font-semibold uppercase tracking-wider text-muted">{t.contactLabel}</p>
           <a href={`mailto:${site.email}`} class="mb-2 block text-[13.5px] text-ink hover:text-accent-text">{site.email}</a>
-          <a href={site.whatsapp} target="_blank" rel="noopener" class="mb-2 block text-[13.5px] text-ink hover:text-accent-text">{t.whatsappLabel} {site.phoneDisplay}</a>
+          <a data-wa href={site.whatsapp} target="_blank" rel="noopener" class="mb-2 block text-[13.5px] text-ink hover:text-accent-text">{t.whatsappLabel} {site.phoneDisplay}</a>
         </div>
         <address class="not-italic">
           <p class="mb-3 font-body text-xs font-semibold uppercase tracking-wider text-muted">{t.offices}</p>

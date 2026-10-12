@@ -48,3 +48,8 @@ h3 {
     scroll-behavior: auto;
   }
 }
+
+/* WhatsApp só aparece para visitantes no Brasil (<html data-br> é definido em Layout.astro) */
+html:not([data-br]) [data-wa] {
+  display: none !important;
+}

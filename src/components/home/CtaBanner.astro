@@ -13,7 +13,7 @@ const { t } = Astro.props;
     </div>
     <div class="flex flex-wrap items-center gap-4">
       <a href="#contact" class="rounded-lg bg-accent px-6 py-3.5 text-sm font-semibold text-ink shadow-sm transition hover:-translate-y-px hover:bg-accent-hover hover:shadow-md">{t.button}</a>
-      <a href={site.whatsapp} target="_blank" rel="noopener" class="rounded-lg border border-white/25 px-6 py-3.5 text-sm font-semibold text-white transition hover:border-white/60">{t.whatsapp}</a>
+      <a data-wa href={site.whatsapp} target="_blank" rel="noopener" class="rounded-lg border border-white/25 px-6 py-3.5 text-sm font-semibold text-white transition hover:border-white/60">{t.whatsapp}</a>
     </div>
   </div>
 </section>

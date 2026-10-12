@@ -30,6 +30,19 @@ export const site = {
 } as const;
 
 /**
+ * Fusos horários do Brasil (IANA). Usados para mostrar o WhatsApp só a visitantes no Brasil:
+ * o navegador informa o fuso do dispositivo, sem consulta de IP nem serviço externo.
+ */
+export const brazilTimeZones = [
+  'America/Sao_Paulo', 'America/Bahia', 'America/Fortaleza', 'America/Recife', 'America/Belem',
+  'America/Maceio', 'America/Araguaina', 'America/Santarem', 'America/Manaus', 'America/Cuiaba',
+  'America/Campo_Grande', 'America/Porto_Velho', 'America/Boa_Vista', 'America/Rio_Branco',
+  'America/Eirunepe', 'America/Noronha',
+  // apelidos antigos que alguns sistemas ainda devolvem
+  'Brazil/East', 'Brazil/West', 'Brazil/Acre', 'Brazil/DeNoronha',
+] as const;
+
+/**
  * Tecnologias exibidas na seção Technologies.
  * - Com `file`: logo em public/tech (PNG com o nome embutido, ou SVG de ícone, que ganha o nome ao lado).
  * - Com `text`: cartão só de texto (marcas com regras de uso de logo: SAP e Microsoft).

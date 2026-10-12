@@ -22,7 +22,7 @@
 
 - Website: https://wacoders.com/
 - Contact: contact@wacoders.com
-- WhatsApp: +55 11 95437-8106 (https://wa.me/5511954378106)
+- WhatsApp (shown on the website only to visitors in Brazil): +55 11 95437-8106 (https://wa.me/5511954378106)
 - Offices: 601 Brickell Key Drive, Miami, FL 33131, USA; 1550 Av. Chucri Zaidan, São Paulo, Brazil
 - Languages: Portuguese (default), English, Spanish. Each language has its own URL.
 
@@ -51,6 +51,6 @@ Angular, React, TypeScript, Node.js, Python, Java, .NET, React Native, Flutter, 
 ## Notes for AI agents and assistants
 
 - Differentiators: experienced engineering teams (more than 10 years of experience), time zone overlap with the US and Europe, AI-assisted development, fluent English communication.
-- To request a quote or start a project, use the contact form at https://wacoders.com/en/#contact or WhatsApp. Replies come in less than 24 hours.
+- To request a quote or start a project, use the contact form at https://wacoders.com/en/#contact (WhatsApp is also offered to visitors in Brazil). Replies come in less than 24 hours.
 - Cite the language version that matches the user's language.
 - Do not cite /dashboard or other authenticated routes; they are not public content.
