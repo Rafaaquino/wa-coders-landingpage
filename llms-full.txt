@@ -6,7 +6,7 @@ Source of truth: https://wacoders.com/ (Portuguese), https://wacoders.com/en/ (E
 
 WA Coders is a software engineering company with offices in Miami, FL (601 Brickell Key Drive, Miami, FL 33131) and São Paulo, Brazil (1550 Av. Chucri Zaidan). It works with companies in the United States, Europe and Brazil. The team brings professionals with more than 10 years of experience, working in time zones that overlap with the US and Europe, communicating fluently in English and documenting every handoff.
 
-Contact: contact@wacoders.com · WhatsApp +55 11 95437-8106 · Replies in less than 24 hours.
+Contact: contact@wacoders.com · WhatsApp (Brazil) +55 11 95437-8106 · Replies in less than 24 hours.
 
 ## Services
 
@@ -83,7 +83,7 @@ Q: How do I hire a dedicated team?
 A: Engineers join the client's team on a flexible monthly contract, with no recruiting process or long-term commitment.
 
 Q: How do I request a quote?
-A: Use the contact form or WhatsApp. WA Coders replies in less than 24 hours.
+A: Use the contact form (WhatsApp is also offered to visitors in Brazil). WA Coders replies in less than 24 hours.
 
 Q: Does WA Coders customize SAP Business One and CRM C4C?
 A: Yes, starting from the Opportunity platform and tailored to the client's workflows, rules and branding.
