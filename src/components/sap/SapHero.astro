@@ -1,0 +1,86 @@
+---
+interface Props { t: any }
+const { t } = Astro.props;
+const bars = [
+  { label: t.bar1, height: '38%' },
+  { label: t.bar2, height: '64%' },
+  { label: t.bar3, height: '48%' },
+  { label: t.bar4, height: '86%', accent: true },
+];
+---
+
+<section class="pb-24 pt-16 md:pb-24 md:pt-20">
+  <div class="mx-auto grid max-w-container gap-12 px-6 md:grid-cols-[1.05fr_1fr] md:items-center md:gap-14 md:px-10">
+    <div>
+      <p class="mb-3.5 font-mono text-xs uppercase tracking-wider text-accent2">{t.eyebrow}</p>
+      <h1 class="text-[2.15rem] leading-[1.14] md:text-[2.85rem]">{t.title}</h1>
+      <p class="mt-3.5 max-w-[56ch] text-lg text-muted">{t.lede}</p>
+      <div class="mt-8 flex flex-wrap items-center gap-5">
+        <a href="#cta" class="rounded-lg bg-accent px-6 py-3.5 text-sm font-semibold text-ink shadow-sm transition hover:-translate-y-px hover:bg-accent-hover hover:shadow-md">{t.ctaPrimary}</a>
+        <a href="#como-funciona" class="rounded-lg border border-line bg-white px-6 py-3.5 text-sm font-semibold text-ink transition hover:border-muted">{t.ctaGhost}</a>
+      </div>
+      <p class="mt-4.5 text-[13px] text-muted">{t.trust}</p>
+    </div>
+
+    <div>
+      <div class="overflow-hidden rounded-2xl border border-line bg-white shadow-[0_24px_60px_-20px_rgba(14,23,38,0.25)]">
+        <div class="flex items-center gap-2 border-b border-line bg-surface px-3.5 py-2.5">
+          <span class="h-2.5 w-2.5 rounded-full" style="background:#e7515a"></span>
+          <span class="h-2.5 w-2.5 rounded-full" style="background:#e2a03f"></span>
+          <span class="h-2.5 w-2.5 rounded-full" style="background:#00ab55"></span>
+          <span class="ml-2.5 rounded-md border border-line bg-white px-3 py-1 font-mono text-[11.5px] text-muted">{t.mockUrl}</span>
+        </div>
+        <div class="p-5">
+          <div class="mb-4.5 grid grid-cols-1 gap-3 sm:grid-cols-3">
+            <div class="rounded-lg border border-line bg-surface p-3.5">
+              <div class="mb-1.5 text-[11px] text-muted">{t.stat1Label}</div>
+              <div class="font-mono text-[19px] font-bold">{t.stat1Value}</div>
+              <div class="mt-1 font-mono text-[11px] text-success-text">{t.stat1Delta}</div>
+            </div>
+            <div class="rounded-lg border border-line bg-surface p-3.5">
+              <div class="mb-1.5 text-[11px] text-muted">{t.stat2Label}</div>
+              <div class="font-mono text-[19px] font-bold">{t.stat2Value}</div>
+              <div class="mt-1 font-mono text-[11px] text-warning-text">{t.stat2Delta}</div>
+            </div>
+            <div class="rounded-lg border border-line bg-surface p-3.5">
+              <div class="mb-1.5 text-[11px] text-muted">{t.stat3Label}</div>
+              <div class="font-mono text-[19px] font-bold">{t.stat3Value}</div>
+              <div class="mt-1 font-mono text-[11px] text-success-text">{t.stat3Delta}</div>
+            </div>
+          </div>
+          <div class="grid grid-cols-1 gap-4 sm:grid-cols-[1.1fr_1fr]">
+            <div class="rounded-lg border border-line bg-surface p-3.5">
+              <div class="mb-3.5 text-[11px] text-muted">{t.chartTitle}</div>
+              <div class="flex h-24 items-end gap-2.5">
+                {bars.map((bar) => (
+                  <div class="flex h-full flex-1 flex-col items-center gap-1.5">
+                    <div class="flex w-full flex-1 items-end">
+                      <div class={`w-full rounded-t ${bar.accent ? 'bg-accent' : 'bg-accent2'}`} style={`height:${bar.height}`}></div>
+                    </div>
+                    <div class="text-center text-[9.5px] text-muted">{bar.label}</div>
+                  </div>
+                ))}
+              </div>
+            </div>
+            <div class="rounded-lg border border-line bg-surface p-3.5">
+              <div class="mb-3.5 text-[11px] text-muted">{t.tableTitle}</div>
+              <div class="flex items-center justify-between border-b border-line py-1.5 text-xs">
+                <span>{t.row1Name}</span>
+                <span class="rounded-full bg-success-tint px-2 py-0.5 text-[10px] font-semibold text-success-text">{t.row1Status}</span>
+              </div>
+              <div class="flex items-center justify-between border-b border-line py-1.5 text-xs">
+                <span>{t.row2Name}</span>
+                <span class="rounded-full bg-warning-tint px-2 py-0.5 text-[10px] font-semibold text-warning-text">{t.row2Status}</span>
+              </div>
+              <div class="flex items-center justify-between py-1.5 text-xs">
+                <span>{t.row3Name}</span>
+                <span class="rounded-full bg-accent2-tint px-2 py-0.5 text-[10px] font-semibold text-accent2">{t.row3Status}</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="mt-3.5 text-center text-xs italic text-muted">{t.caption}</p>
+    </div>
+  </div>
+</section>

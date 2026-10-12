@@ -1,0 +1,40 @@
+---
+interface Props { t: any }
+const { t } = Astro.props;
+
+const icons = [
+  'M12 20h9M16.5 3.5a2.1 2.1 0 013 3L7 19l-4 1 1-4z',
+  'M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z',
+  'M12 21a9 9 0 100-18 9 9 0 000 18zM12 16a4 4 0 100-8 4 4 0 000 8zM12 13a1 1 0 100-2 1 1 0 000 2z',
+];
+---
+
+<section id="process" class="py-24">
+  <div class="mx-auto max-w-container px-6 md:px-10">
+    <p class="mb-3.5 font-mono text-xs uppercase tracking-wider text-accent2">{t.eyebrow}</p>
+    <h2 class="max-w-[26ch] text-[32px]">{t.title}</h2>
+    <p class="mt-3.5 max-w-[68ch] text-[15.5px] text-muted">{t.subtitle}</p>
+
+    <ol class="mt-12 flex flex-col gap-6 md:flex-row md:items-stretch md:gap-0">
+      {
+        t.steps.map((step: { title: string; desc: string }, i: number) => (
+          <>
+            <li class="flex-1 rounded-xl border border-line bg-surface p-6 text-left">
+              <div class="mb-2.5 font-mono text-xs text-accent2">0{i + 1}</div>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" class="mb-3.5 h-6 w-6 text-accent2" aria-hidden="true">
+                <path d={icons[i]} />
+              </svg>
+              <h3 class="mb-2 text-base font-extrabold">{step.title}</h3>
+              <p class="text-[13.8px] text-muted">{step.desc}</p>
+            </li>
+            {i < t.steps.length - 1 && (
+              <li aria-hidden="true" class="flex h-9 items-center justify-center text-muted/50 md:h-auto md:w-14 md:text-xl">→</li>
+            )}
+          </>
+        ))
+      }
+    </ol>
+
+    <a href="#contact" class="mt-10 inline-block rounded-lg bg-accent px-6 py-3.5 text-sm font-semibold text-ink shadow-sm transition hover:-translate-y-px hover:bg-accent-hover hover:shadow-md">{t.cta}</a>
+  </div>
+</section>

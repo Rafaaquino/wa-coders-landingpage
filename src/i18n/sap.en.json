@@ -1,0 +1,271 @@
+{
+  "meta": {
+    "title": "SAP Business One & CRM C4C: Financial Approval and Reporting | WA Coders",
+    "description": "SAP Business One and CRM C4C customization by WA Coders: payments approved by authority level, pipeline, projects and ready-made reports, with no ERP switch. Built on Opportunity."
+  },
+  "breadcrumb": "Home",
+  "intro": {
+    "eyebrow": "WA Coders · SAP & CRM Customization",
+    "title": "SAP & CRM Customization",
+    "subtitle": "SAP Business One and CRM systems hold everything your company needs — but weren't built for a quick, everyday look at what matters.",
+    "desc": "We build a customization layer on top of your existing SAP Business One and CRM (C4C) data, so your team can consult reports, payments, clients, and projects without digging through menus or exporting spreadsheets. Every implementation starts from Opportunity, our own production-tested platform, and is then tailored to your company's specific workflows, approval rules, and branding.",
+    "badge": "Built on Opportunity, customized for you",
+    "items": [
+      {
+        "title": "Reports & Dashboards",
+        "desc": "Live financial and operational reports pulled straight from SAP — no manual exports."
+      },
+      {
+        "title": "Payments",
+        "desc": "Track payment requests, approvals, and status in one clear view."
+      },
+      {
+        "title": "Clients",
+        "desc": "Client data and history synced automatically from your CRM."
+      },
+      {
+        "title": "Projects",
+        "desc": "Project budgets, activity, and progress linked to the right client and payment."
+      }
+    ]
+  },
+  "hero": {
+    "eyebrow": "For companies already running SAP Business One",
+    "title": "Your SAP Business One already has the data. Opportunity shows you the way to it.",
+    "lede": "CRM, multi-level approval workflows and ready-made reports — straight from the data already sitting in your SAP B1. No ERP switch, no weekly spreadsheet.",
+    "ctaPrimary": "Book a demo",
+    "ctaGhost": "See how it works ↓",
+    "trust": "Connects to the SAP Business One you already run · No data migration",
+    "mockUrl": "app.opportunity.com/dashboard",
+    "stat1Label": "Open pipeline",
+    "stat1Value": "R$ 482.3k",
+    "stat1Delta": "▲ 12% this month",
+    "stat2Label": "Pending approvals",
+    "stat2Value": "7",
+    "stat2Delta": "2 due today",
+    "stat3Label": "Average margin",
+    "stat3Value": "34%",
+    "stat3Delta": "▲ 3pp vs. SAP",
+    "chartTitle": "PIPELINE BY STAGE",
+    "bar1": "Prospect.",
+    "bar2": "Proposal",
+    "bar3": "Negot.",
+    "bar4": "Closed",
+    "tableTitle": "RECENT APPROVALS",
+    "row1Name": "Aurora Project",
+    "row1Status": "Approved",
+    "row2Name": "Refund RJ-04",
+    "row2Status": "Pending",
+    "row3Name": "Travel Advance SP",
+    "row3Status": "Under review",
+    "caption": "Illustrative interface — an example of how data appears on the dashboard."
+  },
+  "finance": {
+    "eyebrow": "SAP BUSINESS ONE · SAP C4C · NATIVE INTEGRATION",
+    "title": "Payments, approved by authorization level, straight from your SAP.",
+    "lede": "Request payments, advances and expense reports with attached receipts and configurable approval by authorization level — straight from your SAP Business One and SAP C4C CRM, no spreadsheet in between.",
+    "trioValue1": "100%",
+    "trioLabel1": "receipts attached",
+    "trioValue2": "100%",
+    "trioLabel2": "customizable approval levels",
+    "trioValue3": "100%",
+    "trioLabel3": "audit trail",
+    "flowTitle": "PAYMENT FLOW",
+    "flow1": "Requested",
+    "flow2": "Receipt",
+    "flow3": "Approval by Level",
+    "flow4": "Paid",
+    "row1Name": "PAY-1182 · Copacabana Palace Hotel",
+    "row1Status": "Approved",
+    "row2Name": "PAY-1193 · Trigo & Co. Catering",
+    "row2Status": "Pending",
+    "row3Name": "PAY-1204 · Annual Trade Fair",
+    "row3Status": "Escalated"
+  },
+  "pains": {
+    "eyebrow": "What happens without a layer over SAP",
+    "title": "SAP has the right data. Nobody has time to go get it.",
+    "items": [
+      {
+        "title": "The report becomes a spreadsheet every week",
+        "desc": "Someone exports SAP, pastes it into Excel, formats it all over again — and repeats the whole thing next month."
+      },
+      {
+        "title": "Sales pipeline doesn't talk to finance",
+        "desc": "The CRM shows what might close. SAP shows what already closed. Nobody sees the two side by side."
+      },
+      {
+        "title": "Expense approval with no paper trail",
+        "desc": "Advance or reimbursement requests run through email — no history, no clear approval level, no way to see where it's stuck."
+      }
+    ]
+  },
+  "how": {
+    "eyebrow": "How it works",
+    "title": "A layer on top of what you already have — not a new ERP.",
+    "steps": [
+      {
+        "num": "01",
+        "title": "SAP Business One + CRM",
+        "desc": "Your financial and commercial data stays exactly where it is today."
+      },
+      {
+        "num": "02",
+        "title": "Opportunity organizes and connects it",
+        "desc": "Projects, expenses, approvals and pipeline come together in one dashboard, kept in sync with SAP."
+      },
+      {
+        "num": "03",
+        "title": "Decisions without spreadsheets",
+        "desc": "Ready-made reports, traceable approvals, visible margins — without exporting anything by hand."
+      }
+    ],
+    "reassure": "Doesn't replace SAP Business One. It connects and organizes what it already processes."
+  },
+  "integrations": {
+    "eyebrow": "NATIVE INTEGRATIONS",
+    "title": "Connected to the systems your finance team already trusts.",
+    "badge": "automatic sync",
+    "items": [
+      {
+        "tag": "SAP BUSINESS ONE",
+        "title": "Payments and vendors, without the rework",
+        "desc": "Approved payments automatically become payment documents in B1, with a complete audit trail. Vendor records and the chart of accounts stay in B1, no duplication.",
+        "flow": "Approved payments → SAP B1"
+      },
+      {
+        "tag": "SAP CRM C4C",
+        "title": "Projects and clients, always up to date",
+        "desc": "Projects and client accounts sync automatically from C4C, so every payment and expense report stays tied to the right project, budget and client.",
+        "flow": "SAP C4C → Projects and Clients"
+      }
+    ]
+  },
+  "modules": {
+    "eyebrow": "What you track on the dashboard",
+    "title": "Six modules, one place to look.",
+    "items": [
+      {
+        "title": "Pipeline & CRM",
+        "desc": "Track opportunities from first contact to close, synced with your CRM."
+      },
+      {
+        "title": "Finance",
+        "desc": "Advances, reimbursements and payments with multi-level approval — no shared spreadsheets, no lost emails."
+      },
+      {
+        "title": "Projects",
+        "desc": "Margin and financial health for every project, cross-referenced with SAP Business One in real time."
+      },
+      {
+        "title": "KPIs by area",
+        "desc": "Finance, operations, ESG and audit indicators in a single dashboard."
+      },
+      {
+        "title": "Timesheet",
+        "desc": "Hours logged per project, ready to become a billing report."
+      },
+      {
+        "title": "Commercial dashboards",
+        "desc": "Pipeline, conversion and gross margin in one executive dashboard."
+      }
+    ]
+  },
+  "diff": {
+    "eyebrow": "Why Opportunity",
+    "headlinePre": "Built for teams that already decided to ",
+    "headlineAccent": "trust SAP Business One",
+    "headlinePost": " — not to switch systems again.",
+    "items": [
+      {
+        "bold": "Doesn't replace SAP B1",
+        "rest": "it connects and organizes what's already inside it."
+      },
+      {
+        "bold": "Approval configurable by authorization level",
+        "rest": "not a fixed two-step flow."
+      },
+      {
+        "bold": "Multi-company view",
+        "rest": "in a single dashboard, for groups with more than one legal entity."
+      },
+      {
+        "bold": "Ready-made reports",
+        "rest": "without exporting a SAP spreadsheet every week."
+      }
+    ]
+  },
+  "security": {
+    "eyebrow": "ENTERPRISE TRUST",
+    "title": "The audit trail your auditors will actually read.",
+    "lede": "Every payment, approval and receipt is logged with user, role and date. JWT login, role-based permissions (profiles and authorization levels) and session history, active from day one.",
+    "badges": [
+      "JWT authentication",
+      "Role-based permissions",
+      "Receipts attached",
+      "Hosted in Brazil"
+    ]
+  },
+  "cta": {
+    "eyebrow": "Book a demo",
+    "title": "Ready to get the report out of the spreadsheet?",
+    "lede": "20 minutes with the WA Coders team, looking at your own SAP B1 data organized in the dashboard.",
+    "bullets": [
+      "No commitment, no credit card",
+      "A conversation with someone who actually knows SAP B1 — not a generic script"
+    ],
+    "form": {
+      "nameLabel": "Full name",
+      "namePlaceholder": "Your name",
+      "companyLabel": "Company",
+      "companyPlaceholder": "Company name",
+      "roleLabel": "Job title",
+      "rolePlaceholder": "e.g., CFO",
+      "phoneLabel": "Phone / WhatsApp",
+      "phonePlaceholder": "+1 555 000 0000",
+      "emailLabel": "Work email",
+      "emailPlaceholder": "you@yourcompany.com",
+      "sapLabel": "Already using SAP Business One?",
+      "sapOptions": [
+        "Select an option",
+        "Yes, already using it",
+        "Not yet",
+        "Planning to implement soon"
+      ],
+      "subjectLabel": "Subject of interest",
+      "subjectOptions": [
+        "Select an option",
+        "Payments and financial approval",
+        "SAP Business One integration",
+        "CRM and sales pipeline",
+        "KPIs and reporting",
+        "Other subject"
+      ],
+      "messageLabel": "Message",
+      "messagePlaceholder": "Tell us a bit about what you need",
+      "button": "Book a demo",
+      "consent": "I agree to be contacted by the WA Coders team about this request."
+    },
+    "subject": "SAP/CRM demo request"
+  },
+  "faq": {
+    "eyebrow": "Frequently asked questions",
+    "title": "Before you book, you're probably wondering:",
+    "items": [
+      {
+        "q": "Do I need to switch ERPs to use Opportunity?",
+        "a": "No. Opportunity connects to the SAP Business One your company already runs — it organizes and presents the data, it doesn't replace the ERP.",
+        "placeholder": false
+      },
+      {
+        "q": "Where is the data stored?",
+        "a": "In Brazil. Every payment, approval and receipt is logged with a complete audit trail, user, role and date.",
+        "placeholder": false
+      },
+      {
+        "q": "Does WA Coders customize this for my company?",
+        "a": "Yes. Every implementation starts from Opportunity, our production-tested platform, and is tailored to your company’s approval workflows, rules and branding."
+      }
+    ]
+  }
+}

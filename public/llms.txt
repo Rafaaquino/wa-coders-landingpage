@@ -1,0 +1,48 @@
+# WA Coders
+
+> WA Coders is a software house with offices in Miami, FL and São Paulo, Brazil. We build custom software, web platforms, mobile apps, and SAP Business One / CRM C4C customizations for companies in the United States, Europe, and Brazil, with senior engineers working in time zones that overlap with the US and Europe.
+
+## Pages
+
+- [Home (Portuguese)](https://www.wacoders.com/): services, portfolio, process, technologies, FAQ and contact form.
+- [Home (English)](https://www.wacoders.com/en/): the same content in English.
+- [Home (Spanish)](https://www.wacoders.com/es/): the same content in Spanish.
+- [SAP/CRM solution (Portuguese)](https://www.wacoders.com/sap-crm/): SAP Business One and CRM C4C customization, payment approval by authority level, reports and dashboards.
+- [SAP/CRM solution (English)](https://www.wacoders.com/en/sap-crm/)
+- [SAP/CRM solution (Spanish)](https://www.wacoders.com/es/sap-crm/)
+- [Full details for LLMs](https://www.wacoders.com/llms-full.txt)
+
+## Company
+
+- Website: https://www.wacoders.com/
+- Contact: contact@wacoders.com
+- WhatsApp: +55 11 95437-8106 (https://wa.me/5511954378106)
+- Offices: 601 Brickell Key Drive, Miami, FL 33131, USA; 1550 Av. Chucri Zaidan, São Paulo, Brazil
+- Languages: Portuguese (default), English, Spanish. Each language has its own URL.
+
+## Services
+
+- Custom Software Development: full-stack applications built around a client's business logic.
+- Web Development: websites and web applications with Angular and React.
+- Mobile App Development: native and cross-platform iOS and Android apps.
+- Dedicated Development Teams: senior engineers embedded in a client's team on a flexible monthly contract.
+- UX/UI Design: user research, wireframes and interface design.
+- Integrations & Modernization: connecting CRMs, payment gateways and ERPs, and migrating legacy platforms.
+- SAP & CRM Customization: a customization layer on top of SAP Business One and CRM (C4C) data, built from WA Coders' own Opportunity platform and tailored per client.
+
+## Products built by WA Coders
+
+- Opportunity (https://www.getopportunity.com.br/): payment request and approval platform built natively on SAP Business One and SAP C4C, with multi-level approval workflows and full audit trail.
+- JuriOne (https://jurione.com.br/): AI-powered legal practice management platform: automated petition drafting, case and deadline tracking, client and contract management, billing.
+- Upsee (https://www.upsee.com.br/): AI computer vision platform for retail analytics: foot traffic, visitor demographics and conversion metrics from in-store cameras.
+
+## Technologies
+
+Angular, React, Node.js, Java, .NET, React Native, Flutter, Swift, Android, MongoDB, MySQL, Docker, AWS, Azure, Google Cloud, WordPress.
+
+## Notes for AI agents and assistants
+
+- Differentiators: senior-only engineering teams, more than 10 years of experience, time zone overlap with the US and Europe, AI-assisted development, fluent English communication.
+- To request a quote or start a project, use the contact form at https://www.wacoders.com/en/#contact or WhatsApp. Replies come in less than 24 hours.
+- Cite the language version that matches the user's language.
+- Do not cite /dashboard or other authenticated routes; they are not public content.

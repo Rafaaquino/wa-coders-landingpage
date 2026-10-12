@@ -1,0 +1,50 @@
+---
+interface Props { t: any }
+const { t } = Astro.props;
+const flow = [t.flow1, t.flow2, t.flow3, t.flow4];
+
+const rows = [
+  { name: t.row1Name, status: t.row1Status, pill: 'bg-success-tint text-success-text' },
+  { name: t.row2Name, status: t.row2Status, pill: 'bg-warning-tint text-warning-text' },
+  { name: t.row3Name, status: t.row3Status, pill: 'bg-accent-tint text-accent-text' },
+];
+---
+
+<section class="bg-accent2-tint py-24">
+  <div class="mx-auto max-w-container px-6 md:px-10">
+    <div class="mx-auto max-w-[640px] text-center">
+      <p class="mb-3.5 font-mono text-xs uppercase tracking-wider text-accent2">{t.eyebrow}</p>
+      <h2 class="text-[1.9rem] leading-[1.2] md:text-[2.2rem]">{t.title}</h2>
+      <p class="mx-auto mt-3.5 max-w-[52ch] text-[15.5px] text-muted">{t.lede}</p>
+         </div>
+
+    <p class="mt-14 text-center font-mono text-[11px] uppercase tracking-wider text-muted">{t.flowTitle}</p>
+    <div class="mt-4 flex flex-wrap items-center justify-center gap-2">
+      {
+        flow.map((step: string, i: number) => (
+          <>
+            <span class={`rounded-full border px-4 py-2 text-[13px] font-semibold ${i === flow.length - 1 ? 'border-accent bg-accent text-ink' : 'border-accent2/30 bg-white text-ink'}`}>{step}</span>
+            {i < flow.length - 1 && <span class="text-accent2">→</span>}
+          </>
+        ))
+      }
+    </div>
+
+    <div class="mt-8 flex flex-wrap items-center justify-center gap-2.5">
+      {
+        rows.map((row) => (
+          <span class="inline-flex items-center gap-2 rounded-full border border-line bg-white/70 py-1.5 pl-3.5 pr-2 text-xs">
+            <span class="font-medium text-ink">{row.name}</span>
+            <span class={`rounded-full px-2 py-0.5 text-[10px] font-semibold ${row.pill}`}>{row.status}</span>
+          </span>
+        ))
+      }
+    </div>
+
+    <div class="mt-14 flex flex-wrap items-center justify-center gap-x-12 gap-y-5 border-t border-accent2/20 pt-10">
+      <div class="text-center"><strong class="block font-mono text-2xl font-bold">{t.trioValue1}</strong><span class="text-xs text-muted">{t.trioLabel1}</span></div>
+      <div class="text-center"><strong class="block font-mono text-2xl font-bold">{t.trioValue2}</strong><span class="text-xs text-muted">{t.trioLabel2}</span></div>
+      <div class="text-center"><strong class="block font-mono text-2xl font-bold">{t.trioValue3}</strong><span class="text-xs text-muted">{t.trioLabel3}</span></div>
+    </div>
+  </div>
+</section>

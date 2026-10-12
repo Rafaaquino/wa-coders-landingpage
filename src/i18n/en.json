@@ -1,0 +1,251 @@
+{
+  "meta": {
+    "title": "WA Coders — Nearshore Software Development, Miami & São Paulo",
+    "description": "Senior nearshore engineering team in Miami & São Paulo. Custom software, web and mobile apps, and SAP Business One/CRM customization for US, European and Brazilian companies, in your time zone."
+  },
+  "nav": {
+    "services": "Services",
+    "why": "Why us",
+    "portfolio": "Portfolio",
+    "sap": "SAP/CRM",
+    "process": "Process",
+    "tech": "Technologies",
+    "contact": "Contact",
+    "cta": "Get in touch",
+    "menu": "Open menu",
+    "close": "Close menu",
+    "main": "Main navigation",
+    "language": "Language",
+    "login": "Login"
+  },
+  "hero": {
+    "eyebrow": "Software house · Miami & São Paulo",
+    "title": "Senior software engineering for U.S., European and Brazilian companies",
+    "lede": "We build custom software, web platforms and mobile apps with a senior team in your time zone — and run our own products in production.",
+    "ctaPrimary": "Get free quotes",
+    "ctaSecondary": "See services ↓",
+    "trust": [
+      "10+ years of experience",
+      "Offices in Miami and São Paulo",
+      "Time zone aligned with the U.S. and Europe"
+    ],
+    "mockUrl": "wacoders.com/projects",
+    "mockTitle": "OWN PRODUCTS IN PRODUCTION",
+    "mockStatus": "Live",
+    "mockOffices": "OFFICES",
+    "caption": "Real WA Coders products and offices."
+  },
+  "services": {
+    "eyebrow": "What we do",
+    "title": "Software Development Services",
+    "subtitle": "From your first idea to a live product in your customers' hands — we design, build, and maintain the software your business runs on. Every engagement is staffed with senior engineers who write production-ready code from day one, not junior developers learning on your budget.",
+    "items": [
+      {
+        "title": "Custom Software Development",
+        "desc": "Full-stack applications built around your business logic — from internal tools to customer-facing platforms. We handle architecture, database design, APIs, and the front-end interfaces your team and customers interact with every day, all built to scale as you grow."
+      },
+      {
+        "title": "Web Development",
+        "desc": "Fast, responsive websites and web applications built with modern frameworks like Angular and React. We optimize every page for conversion, page speed, and search visibility, so your site turns visitors into leads instead of just looking good."
+      },
+      {
+        "title": "Mobile App Development",
+        "desc": "Native and cross-platform iOS and Android apps, built for performance and a seamless user experience. From the first wireframe to App Store and Google Play submission, we handle the full mobile development lifecycle."
+      },
+      {
+        "title": "Dedicated Development Teams",
+        "desc": "Senior engineers embedded directly in your team on a flexible monthly contract — no recruiting, onboarding delays, or long-term commitment. Scale your engineering capacity up or down as your roadmap changes, without the overhead of local hiring."
+      },
+      {
+        "title": "UX/UI Design",
+        "desc": "User research, wireframing, and interface design that turn complex products into experiences your customers actually enjoy using. We design in Figma, validate with real users, and hand off production-ready components your developers can implement directly."
+      },
+      {
+        "title": "Integrations & Modernization",
+        "desc": "Connect your CRM, payment gateway, ERP, or any third-party system to the software you already have. We also migrate legacy platforms to modern stacks without disrupting the operations that depend on them."
+      }
+    ]
+  },
+  "features": {
+    "eyebrow": "Why WA Coders",
+    "title": "A software house that understands business.",
+    "desc": "We combine deep engineering expertise with your business goals to ship software that actually moves the needle. As a nearshore team based in Miami and São Paulo, we work inside your time zone, communicate fluently in English, and follow the same engineering standards you'd expect from an in-house senior team — without the overhead of building one from scratch.",
+    "items": [
+      "Multidisciplinary and qualified teams.",
+      "AI-assisted development that speeds up delivery without cutting corners on quality.",
+      "Agility, flexibility and transparency.",
+      "Professionals with more than 10 years of experience.",
+      "Overlapping time zones with the U.S. and Europe — real-time collaboration, not async delays.",
+      "Fluent English communication and clear, documented handoffs at every stage."
+    ],
+    "cta": "Get free quotes"
+  },
+  "portfolio": {
+    "eyebrow": "Portfolio",
+    "title": "Our Work",
+    "subtitle": "Real products we've designed, built, and continue to maintain — not agency mockups.",
+    "visit": "Visit website",
+    "sapLink": "Explore the SAP/CRM solution",
+    "cta": "Want something like this for your business?",
+    "items": [
+      {
+        "key": "opportunity",
+        "name": "Opportunity",
+        "tagline": "Payment Approvals for SAP",
+        "desc": "A payment request and approval platform built natively on SAP Business One and SAP C4C. Teams submit payment requests with invoices attached, route them through multi-level approval workflows by spending authority, and see everything post straight to SAP — no spreadsheets, no manual re-entry, full audit trail.",
+        "category": "Enterprise software",
+        "url": "https://www.getopportunity.com.br/",
+        "internal": true
+      },
+      {
+        "key": "jurione",
+        "name": "JuriOne",
+        "tagline": "AI-Powered Legal Practice Management",
+        "desc": "A complete legal practice management platform with AI built in — automated petition drafting, case and deadline tracking, client and contract management, and billing, all in one system. Law firms using JuriOne report saving up to 4 hours a day that used to go into manual paperwork.",
+        "category": "SaaS platform",
+        "url": "https://jurione.com.br/",
+        "internal": false
+      },
+      {
+        "key": "upsee",
+        "name": "Upsee",
+        "tagline": "AI-Powered Retail Analytics",
+        "desc": "A computer vision platform that turns in-store cameras into real-time analytics — foot traffic, visitor demographics, and conversion metrics — giving retail chains the same data insight e-commerce stores have had for years.",
+        "category": "Artificial intelligence",
+        "url": "https://www.upsee.com.br/",
+        "internal": false
+      }
+    ]
+  },
+  "sapTeaser": {
+    "eyebrow": "SAP Business One · SAP C4C",
+    "title": "SAP & CRM Customization",
+    "subtitle": "SAP Business One and CRM systems hold everything your company needs — but weren't built for a quick, everyday look at what matters.",
+    "desc": "We build a customization layer on top of your existing SAP Business One and CRM (C4C) data, so your team can consult reports, payments, clients, and projects without digging through menus or exporting spreadsheets. Every implementation starts from Opportunity, our own production-tested platform, and is then tailored to your company's specific workflows, approval rules, and branding.",
+    "badge": "Built on Opportunity, customized for you",
+    "items": [
+      {
+        "title": "Reports & Dashboards",
+        "desc": "Live financial and operational reports pulled straight from SAP — no manual exports."
+      },
+      {
+        "title": "Payments",
+        "desc": "Track payment requests, approvals, and status in one clear view."
+      },
+      {
+        "title": "Clients",
+        "desc": "Client data and history synced automatically from your CRM."
+      },
+      {
+        "title": "Projects",
+        "desc": "Project budgets, activity, and progress linked to the right client and payment."
+      }
+    ],
+    "cta": "Want to customize SAP for your company?",
+    "ctaPage": "Explore the SAP/CRM solution"
+  },
+  "process": {
+    "eyebrow": "How we work",
+    "title": "Our process. Simple, transparent, senior-led.",
+    "subtitle": "No lengthy discovery phases or details lost in handoffs. You talk directly with senior engineers from day one, and always know exactly what's being built and when.",
+    "steps": [
+      {
+        "title": "Tell us what you need",
+        "desc": "Fill out a form so we can understand your company."
+      },
+      {
+        "title": "Get free quotes",
+        "desc": "We will then discuss team structure and approach, timeline, budget, and required skill sets."
+      },
+      {
+        "title": "Start project",
+        "desc": "In a matter of days, we will finalize your project specifications, define a development model, select and onboard your team."
+      }
+    ],
+    "cta": "Get Started"
+  },
+  "tech": {
+    "eyebrow": "Stack",
+    "title": "Technologies and applications",
+    "subtitle": "We use the best current technologies.  Below we present the languages and frameworks in which we work and have expertise."
+  },
+  "faq": {
+    "eyebrow": "Frequently asked questions",
+    "title": "Before you talk to us, you probably want to know:",
+    "items": [
+      {
+        "q": "How does the WA Coders nearshore model work?",
+        "a": "We are a senior team with offices in Miami and São Paulo. We work in your company’s time zone in the U.S., Europe or Brazil, with real-time collaboration, fluent English communication and documented handoffs at every stage."
+      },
+      {
+        "q": "What services does WA Coders offer?",
+        "a": "Custom software development, web development, mobile apps (iOS and Android), dedicated development teams, UX/UI design, integrations and legacy modernization, and SAP Business One and CRM C4C customization."
+      },
+      {
+        "q": "Which technologies do you work with?",
+        "a": "Angular, React, Node.js, Java, .NET, React Native, Flutter, Swift, Android, MongoDB, MySQL, Docker, AWS, Azure, Google Cloud and WordPress."
+      },
+      {
+        "q": "How do I hire a dedicated team?",
+        "a": "Senior engineers join your team directly on a flexible monthly contract — no recruiting process and no long-term commitment. You scale capacity up or down as your roadmap changes."
+      },
+      {
+        "q": "How do I request a quote, and how fast do you reply?",
+        "a": "Fill out the contact form or message us on WhatsApp. We reply in less than 24 hours, learn about your business, discuss team structure, timeline and budget, and within days we finalize the project specifications."
+      },
+      {
+        "q": "Do you customize SAP Business One and CRM C4C?",
+        "a": "Yes. We build a customization layer on top of your SAP Business One and CRM C4C data, starting from Opportunity — our production-tested platform — and tailored to your company’s approval workflows, rules and branding."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Let’s talk about your project?",
+    "subtitle": "Tell us what you need. We analyze your project and align budget and deliveries, with no commitment.",
+    "button": "Talk to WA Coders",
+    "whatsapp": "Chat on WhatsApp"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "office1": "Miami office (USA)",
+    "office2": "São Paulo office (Brazil)",
+    "hours": "Working hours",
+    "hoursValue": "9:00 AM to 6:00 PM",
+    "email": "E-mail",
+    "whatsapp": "WhatsApp",
+    "form": {
+      "name": "Your name*",
+      "email": "Your email*",
+      "subject": "Subject*",
+      "subjectPlaceholder": "Select subject...",
+      "message": "Your message*",
+      "send": "Send message",
+      "sending": "Sending...",
+      "success": "Message sent! We will get back to you soon.",
+      "error": "We could not send it right now. Please try again or write to contact@wacoders.com.",
+      "subjectLabels": {
+        "custom": "Custom software development",
+        "website": "Website",
+        "mobile": "Mobile app development",
+        "team": "Dedicated development team",
+        "design": "UX/UI design and branding",
+        "integrations": "Integrations and modernization",
+        "sap": "SAP/CRM customization",
+        "other": "Others"
+      }
+    },
+    "title": "Get In Touch",
+    "subtitle": "Want to know more about how we work, talk about your challenges or ask questions? Contact us. We love exchanging ideas about digital products! Fill out the form and receive contact in less than 24 hours."
+  },
+  "footer": {
+    "tagline": "Software house with offices in Miami and São Paulo. Custom software, web, mobile and SAP/CRM.",
+    "company": "Company",
+    "services": "Services",
+    "contactLabel": "Contact",
+    "offices": "Offices",
+    "rights": "All rights reserved.",
+    "whatsappLabel": "WhatsApp"
+  },
+  "floatWhatsapp": "Chat on WhatsApp",
+  "skip": "Skip to content"
+}

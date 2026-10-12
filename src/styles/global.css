@@ -1,0 +1,50 @@
+@import '@fontsource/nunito/400.css';
+@import '@fontsource/nunito/600.css';
+@import '@fontsource/nunito/700.css';
+@import '@fontsource/nunito/800.css';
+@import '@fontsource/nunito/900.css';
+@import '@fontsource/ibm-plex-sans/400.css';
+@import '@fontsource/ibm-plex-sans/500.css';
+@import '@fontsource/ibm-plex-sans/600.css';
+@import '@fontsource/ibm-plex-sans/700.css';
+@import '@fontsource/ibm-plex-mono/400.css';
+@import '@fontsource/ibm-plex-mono/500.css';
+@import '@fontsource/ibm-plex-mono/600.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* O header é fixo: as âncoras não podem ficar escondidas atrás dele */
+section[id] {
+  scroll-margin-top: 72px;
+}
+
+body {
+  @apply bg-white text-ink;
+}
+
+h1,
+h2,
+h3 {
+  @apply font-display font-black tracking-tight;
+  text-wrap: balance;
+}
+
+::selection {
+  @apply bg-accent-tint;
+}
+
+:focus-visible {
+  @apply outline-2 outline-offset-2 outline-accent2;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

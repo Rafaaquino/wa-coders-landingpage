@@ -1,0 +1,44 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SapHero from '../components/sap/SapHero.astro';
+import SapIntro from '../components/sap/SapIntro.astro';
+import FinanceSpotlight from '../components/sap/FinanceSpotlight.astro';
+import PainPoints from '../components/sap/PainPoints.astro';
+import HowItWorks from '../components/sap/HowItWorks.astro';
+import Integrations from '../components/sap/Integrations.astro';
+import Modules from '../components/sap/Modules.astro';
+import Differentiators from '../components/sap/Differentiators.astro';
+import Security from '../components/sap/Security.astro';
+import Faq from '../components/Faq.astro';
+import SapCta from '../components/sap/SapCta.astro';
+import { home, sap } from '../i18n';
+import { localePath, type Locale } from '../i18n/locales';
+import { faqSchema, breadcrumbSchema, opportunityAppSchema } from '../lib/schema';
+
+interface Props { lang: Locale }
+const { lang } = Astro.props;
+const t = home[lang];
+const s = sap[lang];
+const schema = [
+  breadcrumbSchema([
+    { name: s.breadcrumb, path: localePath(lang) },
+    { name: t.nav.sap, path: localePath(lang, 'sap-crm/') },
+  ]),
+  opportunityAppSchema(s.meta.description, lang),
+  faqSchema(s.faq.items, lang),
+];
+---
+
+<Layout lang={lang} t={t} page="sap-crm/" title={s.meta.title} description={s.meta.description} schema={schema}>
+  <SapHero t={s.hero} />
+  <SapIntro t={s.intro} />
+  <FinanceSpotlight t={s.finance} />
+  <PainPoints t={s.pains} />
+  <HowItWorks t={s.how} />
+  <Integrations t={s.integrations} />
+  <Modules t={s.modules} />
+  <Differentiators t={s.diff} />
+  <Security t={s.security} />
+  <Faq t={s.faq} />
+  <SapCta t={s.cta} msgs={t.contact.form} />
+</Layout>

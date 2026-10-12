@@ -1,0 +1,38 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Hero from '../components/home/Hero.astro';
+import Services from '../components/home/Services.astro';
+import Features from '../components/home/Features.astro';
+import Portfolio from '../components/home/Portfolio.astro';
+import SapCrmTeaser from '../components/home/SapCrmTeaser.astro';
+import Process from '../components/home/Process.astro';
+import Technologies from '../components/home/Technologies.astro';
+import Faq from '../components/Faq.astro';
+import CtaBanner from '../components/home/CtaBanner.astro';
+import Contact from '../components/home/Contact.astro';
+import { home } from '../i18n';
+import type { Locale } from '../i18n/locales';
+import { servicesSchema, faqSchema, portfolioSchema } from '../lib/schema';
+
+interface Props { lang: Locale }
+const { lang } = Astro.props;
+const t = home[lang];
+const schema = [
+  ...servicesSchema(t.services.items, lang),
+  portfolioSchema(t.portfolio.items),
+  faqSchema(t.faq.items, lang),
+];
+---
+
+<Layout lang={lang} t={t} page="" title={t.meta.title} description={t.meta.description} schema={schema}>
+  <Hero t={t.hero} portfolio={t.portfolio} />
+  <Services t={t.services} />
+  <Features t={t.features} />
+  <Portfolio t={t.portfolio} lang={lang} />
+  <SapCrmTeaser t={t.sapTeaser} lang={lang} />
+  <Process t={t.process} />
+  <Technologies t={t.tech} />
+  <Faq t={t.faq} />
+  <CtaBanner t={t.cta} />
+  <Contact t={t.contact} />
+</Layout>

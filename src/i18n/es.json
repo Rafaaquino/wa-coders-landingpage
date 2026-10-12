@@ -1,0 +1,251 @@
+{
+  "meta": {
+    "title": "WA Coders — Desarrollo de Software Nearshore, Miami y São Paulo",
+    "description": "Equipo senior de desarrollo nearshore en Miami y São Paulo. Software a medida, web y apps móviles, y personalización de SAP Business One/CRM para empresas de EE. UU., Europa y Brasil, en tu zona horaria."
+  },
+  "nav": {
+    "services": "Servicios",
+    "why": "Ventajas",
+    "portfolio": "Portafolio",
+    "sap": "SAP/CRM",
+    "process": "Proceso",
+    "tech": "Tecnologías",
+    "contact": "Contacto",
+    "cta": "Hablemos",
+    "menu": "Abrir menú",
+    "close": "Cerrar menú",
+    "main": "Navegación principal",
+    "language": "Idioma",
+    "login": "Iniciar sesión"
+  },
+  "hero": {
+    "eyebrow": "Software house · Miami y São Paulo",
+    "title": "Ingeniería de software senior para empresas de EE. UU., Europa y Brasil",
+    "lede": "Creamos software a medida, plataformas web y apps móviles con un equipo senior en tu zona horaria — y operamos productos propios en producción.",
+    "ctaPrimary": "Solicitar cotización gratis",
+    "ctaSecondary": "Ver servicios ↓",
+    "trust": [
+      "+10 años de experiencia",
+      "Oficinas en Miami y São Paulo",
+      "Zona horaria alineada con EE. UU. y Europa"
+    ],
+    "mockUrl": "wacoders.com/proyectos",
+    "mockTitle": "PRODUCTOS PROPIOS EN PRODUCCIÓN",
+    "mockStatus": "En línea",
+    "mockOffices": "OFICINAS",
+    "caption": "Productos y oficinas reales de WA Coders."
+  },
+  "services": {
+    "eyebrow": "Qué hacemos",
+    "title": "Servicios de Desarrollo de Software",
+    "subtitle": "Desde tu primera idea hasta el producto en manos de tus clientes — diseñamos, construimos y mantenemos el software que hace funcionar tu negocio. Cada proyecto es liderado por ingenieros senior que escriben código listo para producción desde el primer día, no junior aprendiendo con tu presupuesto.",
+    "items": [
+      {
+        "title": "Desarrollo de Software a Medida",
+        "desc": "Aplicaciones full-stack construidas alrededor de tu lógica de negocio — desde herramientas internas hasta plataformas para tus clientes. Nos encargamos de la arquitectura, base de datos, APIs y las interfaces que tu equipo y tus clientes usan cada día, todo diseñado para crecer contigo."
+      },
+      {
+        "title": "Desarrollo Web",
+        "desc": "Sitios y aplicaciones web rápidas y responsivas, construidas con frameworks modernos como Angular y React. Optimizamos cada página para conversión, velocidad de carga y visibilidad en buscadores, para que tu sitio convierta visitantes en clientes potenciales."
+      },
+      {
+        "title": "Desarrollo de Apps Móviles",
+        "desc": "Apps nativas y multiplataforma para iOS y Android, construidas para un rendimiento óptimo y una experiencia de usuario fluida. Desde el primer wireframe hasta la publicación en App Store y Google Play, gestionamos todo el ciclo de desarrollo móvil."
+      },
+      {
+        "title": "Equipos de Desarrollo Dedicados",
+        "desc": "Ingenieros senior integrados directamente a tu equipo, con contrato mensual flexible — sin procesos de reclutamiento, retrasos de onboarding ni compromisos a largo plazo. Escala tu capacidad de desarrollo según cambie tu roadmap, sin el costo de contratación local."
+      },
+      {
+        "title": "Diseño UX/UI",
+        "desc": "Investigación de usuarios, wireframes y diseño de interfaces que convierten productos complejos en experiencias que tus clientes disfrutan usar. Diseñamos en Figma, validamos con usuarios reales y entregamos componentes listos para que tus desarrolladores los implementen."
+      },
+      {
+        "title": "Integraciones y Modernización",
+        "desc": "Conecta tu CRM, pasarela de pagos, ERP o cualquier sistema de terceros al software que ya tienes. También migramos plataformas legadas a stacks modernos sin interrumpir las operaciones que dependen de ellas."
+      }
+    ]
+  },
+  "features": {
+    "eyebrow": "Por qué WA Coders",
+    "title": "Una software house que entiende de negocios.",
+    "desc": "Combinamos experiencia técnica profunda con los objetivos de tu negocio para entregar software que realmente genera resultados. Como equipo nearshore con base en Miami y São Paulo, trabajamos en tu zona horaria, nos comunicamos con fluidez en inglés y seguimos los mismos estándares de ingeniería que esperarías de un equipo senior interno — sin el costo de crear uno desde cero.",
+    "items": [
+      "Equipos multidisciplinarios y calificados.",
+      "Desarrollo asistido por IA que acelera la entrega sin sacrificar calidad.",
+      "Agilidad, flexibilidad y transparencia.",
+      "Profesionales con más de 10 años de experiencia.",
+      "Zona horaria alineada con EE. UU. y Europa — colaboración en tiempo real, no retrasos asíncronos.",
+      "Comunicación fluida en inglés y entregas claras y documentadas en cada etapa."
+    ],
+    "cta": "Solicitar cotización gratis"
+  },
+  "portfolio": {
+    "eyebrow": "Portafolio",
+    "title": "Nuestro Trabajo",
+    "subtitle": "Productos reales que diseñamos, construimos y seguimos manteniendo — no son mockups de agencia.",
+    "visit": "Visitar sitio",
+    "sapLink": "Conocer la solución SAP/CRM",
+    "cta": "¿Quieres algo así para tu negocio?",
+    "items": [
+      {
+        "key": "opportunity",
+        "name": "Opportunity",
+        "tagline": "Aprobación de Pagos para SAP",
+        "desc": "Una plataforma de solicitud y aprobación de pagos construida de forma nativa sobre SAP Business One y SAP C4C. Los equipos solicitan pagos con factura adjunta, los enrutan a través de flujos de aprobación por nivel de autoridad, y todo se registra directamente en SAP — sin hojas de cálculo, sin doble digitación, con trazabilidad completa.",
+        "category": "Software empresarial",
+        "url": "https://www.getopportunity.com.br/",
+        "internal": true
+      },
+      {
+        "key": "jurione",
+        "name": "JuriOne",
+        "tagline": "Gestión Jurídica con Inteligencia Artificial",
+        "desc": "Una plataforma completa de gestión jurídica con IA integrada — generación automática de escritos legales, seguimiento de casos y plazos, gestión de clientes y contratos, y módulo financiero, todo en un solo sistema. Los despachos que usan JuriOne reportan ahorrar hasta 4 horas al día que antes dedicaban a tareas manuales.",
+        "category": "Plataforma SaaS",
+        "url": "https://jurione.com.br/",
+        "internal": false
+      },
+      {
+        "key": "upsee",
+        "name": "Upsee",
+        "tagline": "Analítica de Retail con IA",
+        "desc": "Una plataforma de visión por computadora que convierte las cámaras de tu tienda en analítica en tiempo real — flujo de personas, perfil demográfico de los visitantes y métricas de conversión — dando a las cadenas de retail el mismo nivel de datos que el e-commerce tiene desde hace años.",
+        "category": "Inteligencia artificial",
+        "url": "https://www.upsee.com.br/",
+        "internal": false
+      }
+    ]
+  },
+  "sapTeaser": {
+    "eyebrow": "SAP Business One · SAP C4C",
+    "title": "Personalización SAP y CRM",
+    "subtitle": "SAP Business One y el CRM tienen todo lo que tu empresa necesita — pero no fueron pensados para una consulta rápida del día a día.",
+    "desc": "Construimos una capa de personalización sobre los datos de tu SAP Business One y CRM (C4C), para que tu equipo consulte reportes, pagos, clientes y proyectos sin navegar por menús ni exportar hojas de cálculo. Cada implementación parte de Opportunity, nuestra propia plataforma probada en producción, y luego se adapta a los flujos de aprobación, reglas e identidad visual de tu empresa.",
+    "badge": "Construido sobre Opportunity, personalizado para ti",
+    "items": [
+      {
+        "title": "Reportes y Dashboards",
+        "desc": "Reportes financieros y operativos en tiempo real, directo desde SAP — sin exportación manual."
+      },
+      {
+        "title": "Pagos",
+        "desc": "Sigue solicitudes, aprobaciones y estado de pago en una sola vista."
+      },
+      {
+        "title": "Clientes",
+        "desc": "Datos e historial de clientes sincronizados automáticamente desde tu CRM."
+      },
+      {
+        "title": "Proyectos",
+        "desc": "Presupuesto, actividad y avance de cada proyecto vinculado al cliente y pago correctos."
+      }
+    ],
+    "cta": "¿Quieres personalizar el SAP de tu empresa?",
+    "ctaPage": "Conocer la solución SAP/CRM"
+  },
+  "process": {
+    "eyebrow": "Cómo trabajamos",
+    "title": "Nuestro proceso. Simple, transparente, liderado por seniors.",
+    "subtitle": "Sin fases de descubrimiento eternas ni información que se pierde en el camino. Hablas directamente con ingenieros senior desde el primer día, y sabes exactamente qué se está construyendo y cuándo.",
+    "steps": [
+      {
+        "title": "Cuéntanos qué necesitas",
+        "desc": "Completa un formulario para que podamos entender tu empresa."
+      },
+      {
+        "title": "Obtén cotizaciones gratis",
+        "desc": "Luego discutiremos la estructura del equipo y el enfoque, el cronograma, el presupuesto y las habilidades necesarias."
+      },
+      {
+        "title": "Inicia el proyecto",
+        "desc": "En cuestión de días, finalizaremos las especificaciones de tu proyecto, definiremos un modelo de desarrollo, y seleccionaremos e integraremos a tu equipo."
+      }
+    ],
+    "cta": "Comenzar"
+  },
+  "tech": {
+    "eyebrow": "Stack",
+    "title": "Tecnologías y aplicaciones",
+    "subtitle": "Usamos las mejores tecnologías actuales.  A continuación presentamos los lenguajes y frameworks en los que trabajamos y tenemos experiencia."
+  },
+  "faq": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Antes de hablar con nosotros, probablemente quieras saber:",
+    "items": [
+      {
+        "q": "¿Cómo funciona el modelo nearshore de WA Coders?",
+        "a": "Somos un equipo senior con oficinas en Miami y São Paulo. Trabajamos en la zona horaria de tu empresa en EE. UU., Europa o Brasil, con colaboración en tiempo real, comunicación fluida en inglés y entregas documentadas en cada etapa."
+      },
+      {
+        "q": "¿Qué servicios ofrece WA Coders?",
+        "a": "Desarrollo de software a medida, desarrollo web, apps móviles (iOS y Android), equipos de desarrollo dedicados, diseño UX/UI, integraciones y modernización de sistemas legados, y personalización de SAP Business One y CRM C4C."
+      },
+      {
+        "q": "¿Con qué tecnologías trabajan?",
+        "a": "Angular, React, Node.js, Java, .NET, React Native, Flutter, Swift, Android, MongoDB, MySQL, Docker, AWS, Azure, Google Cloud y WordPress."
+      },
+      {
+        "q": "¿Cómo contrato un equipo dedicado?",
+        "a": "Ingenieros senior se integran directamente a tu equipo con contrato mensual flexible, sin proceso de reclutamiento ni compromiso a largo plazo. Escalas la capacidad según cambie tu roadmap."
+      },
+      {
+        "q": "¿Cómo pido una cotización y en cuánto tiempo responden?",
+        "a": "Completa el formulario de contacto o escríbenos por WhatsApp. Respondemos en menos de 24 horas, entendemos tu negocio, conversamos sobre estructura del equipo, plazos y presupuesto, y en pocos días cerramos las especificaciones del proyecto."
+      },
+      {
+        "q": "¿Personalizan SAP Business One y CRM C4C?",
+        "a": "Sí. Construimos una capa de personalización sobre los datos de tu SAP Business One y CRM C4C, a partir de Opportunity, nuestra plataforma probada en producción, adaptada a los flujos de aprobación, reglas e identidad visual de tu empresa."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Hablamos sobre tu proyecto?",
+    "subtitle": "Cuéntanos lo que necesitas. Analizamos tu proyecto y alineamos presupuesto y entregas, sin compromiso.",
+    "button": "Hablar con WA Coders",
+    "whatsapp": "Escribir por WhatsApp"
+  },
+  "contact": {
+    "eyebrow": "Contacto",
+    "office1": "Oficina Miami (EE. UU.)",
+    "office2": "Oficina São Paulo (Brasil)",
+    "hours": "Horario de atención",
+    "hoursValue": "9:00 a 18:00",
+    "email": "Correo electrónico",
+    "whatsapp": "WhatsApp",
+    "form": {
+      "name": "Tu nombre*",
+      "email": "Tu correo electrónico*",
+      "subject": "Asunto*",
+      "subjectPlaceholder": "Selecciona un asunto...",
+      "message": "Tu mensaje*",
+      "send": "Enviar mensaje",
+      "sending": "Enviando...",
+      "success": "¡Mensaje enviado! Te responderemos pronto.",
+      "error": "No pudimos enviarlo ahora. Inténtalo de nuevo o escribe a contact@wacoders.com.",
+      "subjectLabels": {
+        "custom": "Desarrollo de software a medida",
+        "website": "Sitio web",
+        "mobile": "Desarrollo de apps móviles",
+        "team": "Equipo de desarrollo dedicado",
+        "design": "Diseño UX/UI y branding",
+        "integrations": "Integraciones y modernización",
+        "sap": "Personalización SAP/CRM",
+        "other": "Otros"
+      }
+    },
+    "title": "Ponte en Contacto",
+    "subtitle": "¿Quieres saber más sobre cómo trabajamos, hablar de tus desafíos o hacer preguntas? Contáctanos. ¡Nos encanta intercambiar ideas sobre productos digitales! Completa el formulario y recibirás una respuesta en menos de 24 horas."
+  },
+  "footer": {
+    "tagline": "Software house con oficinas en Miami y São Paulo. Software a medida, web, móvil y SAP/CRM.",
+    "company": "Empresa",
+    "services": "Servicios",
+    "contactLabel": "Contacto",
+    "offices": "Oficinas",
+    "rights": "Todos los derechos reservados.",
+    "whatsappLabel": "WhatsApp"
+  },
+  "floatWhatsapp": "Escribir por WhatsApp",
+  "skip": "Saltar al contenido"
+}

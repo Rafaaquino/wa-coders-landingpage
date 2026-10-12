@@ -1,0 +1,129 @@
+---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { locales, localePath, hreflang, ogLocale, type Locale } from '../i18n/locales';
+import { site } from '../site';
+import { organizationSchema, websiteSchema } from '../lib/schema';
+
+interface Props {
+  lang: Locale;
+  /** Dados comuns do idioma (nav, footer…) vindos de i18n/{lang}.json */
+  t: any;
+  /** '' = home, 'sap-crm/' = página SAP/CRM */
+  page?: string;
+  title: string;
+  description: string;
+  /** Nós extras do JSON-LD (@graph) */
+  schema?: Record<string, unknown>[];
+}
+
+const { lang, t, page = '', title, description, schema = [] } = Astro.props;
+const canonical = new URL(localePath(lang, page), site.url).toString();
+const ogImage = new URL(site.ogImage, site.url).toString();
+const graph = {
+  '@context': 'https://schema.org',
+  '@graph': [organizationSchema(lang, t.meta.description), websiteSchema(lang), ...schema],
+};
+const { ga4, gtm, hotjar } = site.analytics;
+---
+
+<!doctype html>
+<html lang={hreflang[lang]}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+    <meta name="theme-color" content="#0e1726" />
+    <meta name="author" content={site.name} />
+    <link rel="canonical" href={canonical} />
+    {locales.map((l) => <link rel="alternate" hreflang={hreflang[l]} href={new URL(localePath(l, page), site.url).toString()} />)}
+    <link rel="alternate" hreflang="x-default" href={new URL(localePath('pt', page), site.url).toString()} />
+
+    <link rel="icon" href="/favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/logo/wa-coders-logo.png" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={site.name} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content={`${site.name} — ${title}`} />
+    <meta property="og:locale" content={ogLocale[lang]} />
+    {locales.filter((l) => l !== lang).map((l) => <meta property="og:locale:alternate" content={ogLocale[l]} />)}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+
+    <link rel="alternate" type="text/plain" href="/llms.txt" title="LLM-readable summary" />
+    <script type="application/ld+json" set:html={JSON.stringify(graph)} />
+
+    <!-- Analytics: carregado só após a primeira interação (ou 5 s), para não pesar no LCP -->
+    <script is:inline define:vars={{ ga4, gtm, hotjar }}>
+      (function () {
+        var loaded = false;
+        function load() {
+          if (loaded) return;
+          loaded = true;
+          window.dataLayer = window.dataLayer || [];
+          window.gtag = function () { window.dataLayer.push(arguments); };
+          window.gtag('js', new Date());
+          window.gtag('config', ga4);
+          var g = document.createElement('script');
+          g.async = true;
+          g.src = 'https://www.googletagmanager.com/gtag/js?id=' + ga4;
+          document.head.appendChild(g);
+          window.dataLayer.push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+          var m = document.createElement('script');
+          m.async = true;
+          m.src = 'https://www.googletagmanager.com/gtm.js?id=' + gtm;
+          document.head.appendChild(m);
+          (function (h, o, t, j, a, r) {
+            h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments); };
+            h._hjSettings = { hjid: hotjar, hjsv: 6 };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script');
+            r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+          })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
+        }
+        ['pointerdown', 'keydown', 'scroll', 'touchstart'].forEach(function (e) {
+          window.addEventListener(e, load, { once: true, passive: true });
+        });
+        setTimeout(load, 5000);
+      })();
+    </script>
+  </head>
+  <body class="font-body antialiased">
+    <a href="#main" class="sr-only z-50 rounded-lg bg-ink px-4 py-2 text-sm text-white focus:not-sr-only focus:fixed focus:left-4 focus:top-4">{t.skip}</a>
+    <Header lang={lang} page={page} t={t.nav} />
+    <main id="main">
+      <slot />
+    </main>
+    <Footer lang={lang} t={t.footer} nav={t.nav} />
+
+    <a
+      href={site.whatsapp}
+      target="_blank"
+      rel="noopener"
+      aria-label={t.floatWhatsapp}
+      class="fixed bottom-5 right-5 z-30 flex h-14 w-14 items-center justify-center rounded-full bg-[#25d366] text-white shadow-lg transition hover:scale-105"
+    >
+      <svg viewBox="0 0 24 24" fill="currentColor" class="h-7 w-7" aria-hidden="true">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
+      </svg>
+    </a>
+
+    <script>
+      import '../scripts/ui.ts';
+    </script>
+  </body>
+</html>
