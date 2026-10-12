@@ -7,7 +7,7 @@ const { t } = Astro.props;
   <div class="mx-auto max-w-container px-6 md:px-10">
     <p class="mb-3.5 font-mono text-xs uppercase tracking-wider text-accent2">{t.eyebrow}</p>
 
-    <div class="grid items-start gap-10 md:grid-cols-[0.9fr_1.1fr] md:gap-14">
+    <div class="grid grid-cols-1 items-start gap-10 md:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] md:gap-14">
       <div>
         <h2 class="text-[2rem] leading-[1.2] md:text-[2.25rem]">{t.title}</h2>
         <p class="mt-4 text-[15.5px] text-muted">{t.desc}</p>

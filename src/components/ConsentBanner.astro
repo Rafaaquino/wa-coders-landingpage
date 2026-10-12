@@ -1,0 +1,26 @@
+---
+import { localePath, type Locale } from '../i18n/locales';
+
+interface Props { lang: Locale; t: any }
+const { lang, t } = Astro.props;
+---
+
+<div
+  id="consent-banner"
+  hidden
+  role="dialog"
+  aria-live="polite"
+  aria-label={t.title}
+  class="fixed bottom-5 left-4 right-24 z-50 max-w-md rounded-xl border border-line bg-white p-4 shadow-[0_14px_40px_-12px_rgba(14,23,38,0.35)] sm:left-5 sm:right-auto"
+>
+  <p class="text-[14px] font-semibold text-ink">{t.title}</p>
+  <p class="mt-1 text-[13px] leading-relaxed text-muted">
+    {t.text}
+    <a href={localePath(lang, 'privacy/')} class="font-semibold text-ink underline decoration-accent decoration-2 underline-offset-4">{t.more}</a>
+  </p>
+  <!-- Aceitar e Recusar com o mesmo peso visual (exigência do GDPR) -->
+  <div class="mt-3 flex flex-wrap gap-2">
+    <button type="button" data-consent="granted" class="rounded-lg border border-ink bg-ink px-4 py-2 text-[13px] font-semibold text-white transition hover:bg-ink/85">{t.accept}</button>
+    <button type="button" data-consent="denied" class="rounded-lg border border-ink bg-white px-4 py-2 text-[13px] font-semibold text-ink transition hover:bg-surface">{t.reject}</button>
+  </div>
+</div>

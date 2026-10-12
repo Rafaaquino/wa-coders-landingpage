@@ -2,9 +2,10 @@ import { defineConfig } from 'astro/config';
 import tailwind from '@astrojs/tailwind';
 import sitemap from '@astrojs/sitemap';
 
-// Build estático para https://www.wacoders.com (publique o conteúdo de dist/ onde o site é servido).
+// Build estático para https://wacoders.com. Este é o domínio que responde (o www redireciona para ele),
+// então canonical, hreflang, sitemap e JSON-LD usam esse mesmo host.
 export default defineConfig({
-  site: 'https://www.wacoders.com',
+  site: 'https://wacoders.com',
   trailingSlash: 'always',
   integrations: [
     tailwind(),
@@ -13,7 +14,7 @@ export default defineConfig({
         defaultLocale: 'pt',
         locales: { pt: 'pt-BR', en: 'en-US', es: 'es-ES' },
       },
-      lastmod: new Date(),
+      filter: (page) => !page.includes('/404'),
     }),
   ],
   i18n: {

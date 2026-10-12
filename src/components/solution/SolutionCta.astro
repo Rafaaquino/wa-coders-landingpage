@@ -1,12 +1,12 @@
 ---
-interface Props { t: any; msgs: any }
-const { t, msgs } = Astro.props;
+interface Props { t: any; msgs: any; formId?: string; privacyHref: string; privacyLabel: string }
+const { t, msgs, formId = 'solution-form', privacyHref, privacyLabel } = Astro.props;
 const form = t.form;
 const input = 'w-full rounded-lg border border-line bg-white px-3.5 py-2.5 text-[14.5px] focus:border-accent focus:outline-none focus:ring-4 focus:ring-accent-tint';
 ---
 
 <section id="cta" class="bg-ink py-24 text-white">
-  <div class="mx-auto grid max-w-container gap-12 px-6 md:grid-cols-2 md:items-start md:gap-16 md:px-10">
+  <div class="mx-auto grid grid-cols-1 max-w-container gap-12 px-6 md:grid-cols-2 md:items-start md:gap-16 md:px-10">
     <div>
       <p class="mb-3.5 font-mono text-xs uppercase tracking-wider text-accent">{t.eyebrow}</p>
       <h2 class="max-w-[18ch] text-[32px] text-white">{t.title}</h2>
@@ -23,10 +23,11 @@ const input = 'w-full rounded-lg border border-line bg-white px-3.5 py-2.5 text-
           ))
         }
       </ul>
+      {t.legal && <p class="mt-8 max-w-[56ch] text-xs text-white/50">{t.legal}</p>}
     </div>
 
     <div class="rounded-2xl bg-white p-8 text-ink">
-      <form id="sap-form" data-api-form data-sending={msgs.sending} data-success={msgs.success} data-error={msgs.error}>
+      <form id={formId} data-api-form data-sending={msgs.sending} data-success={msgs.success} data-error={msgs.error}>
         <input type="hidden" name="subject" value={t.subject} />
         <div class="mb-3.5 grid gap-3.5 sm:grid-cols-2">
           <div>
@@ -55,7 +56,7 @@ const input = 'w-full rounded-lg border border-line bg-white px-3.5 py-2.5 text-
         <div class="mb-3.5 grid gap-3.5 sm:grid-cols-2">
           <div>
             <label class="mb-1.5 block text-xs font-semibold" for="s-sap">{form.sapLabel}</label>
-            <select class={input} id="s-sap" name="sap_status" data-field-label={form.sapLabel} required>
+            <select class={input} id="s-sap" name="platform_status" data-field-label={form.sapLabel} required>
               {form.sapOptions.map((opt: string, i: number) => <option value={i === 0 ? '' : opt} selected={i === 0} disabled={i === 0}>{opt}</option>)}
             </select>
           </div>
@@ -72,7 +73,7 @@ const input = 'w-full rounded-lg border border-line bg-white px-3.5 py-2.5 text-
         </div>
         <div class="mb-5 mt-4.5 flex items-start gap-2.5">
           <input class="mt-0.5 h-4 w-4 flex-shrink-0" type="checkbox" id="s-consent" name="consent" required />
-          <label class="text-[12.5px] leading-relaxed text-muted" for="s-consent">{form.consent}</label>
+          <label class="text-[12.5px] leading-relaxed text-muted" for="s-consent">{form.consent} <a href={privacyHref} class="font-semibold text-ink underline decoration-accent decoration-2 underline-offset-4">{privacyLabel}</a>.</label>
         </div>
         <button type="submit" class="w-full rounded-lg bg-accent px-4 py-3.5 text-center text-sm font-semibold text-ink shadow-sm transition hover:-translate-y-px hover:bg-accent-hover hover:shadow-md disabled:opacity-60">
           {form.button}

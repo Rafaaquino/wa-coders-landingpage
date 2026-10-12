@@ -1,89 +1,88 @@
 {
   "meta": {
-    "title": "WA Coders — Software House em Miami e São Paulo | Desenvolvimento Sob Medida",
-    "description": "Time sênior de desenvolvimento de software com escritórios em Miami e São Paulo. Software sob medida, web, mobile e personalização SAP Business One/CRM para empresas no Brasil, EUA e Europa."
+    "title": "WA Coders — Desenvolvimento de Software em Miami e São Paulo",
+    "description": "Engenharia de software com escritórios em Miami e São Paulo: sistemas sob medida, plataformas web, aplicativos mobile e personalização de SAP e CRM."
   },
   "nav": {
     "services": "Serviços",
     "why": "Diferenciais",
     "portfolio": "Portfólio",
     "sap": "SAP/CRM",
-    "process": "Processo",
-    "tech": "Tecnologias",
     "contact": "Contato",
     "cta": "Fale conosco",
     "menu": "Abrir menu",
     "close": "Fechar menu",
     "main": "Navegação principal",
     "language": "Idioma",
-    "login": "Entrar"
+    "login": "Entrar",
+    "dynamics": "Dynamics/CRM"
   },
   "hero": {
-    "eyebrow": "Software house · Miami e São Paulo",
-    "title": "Engenharia de software sênior para empresas do Brasil, EUA e Europa",
-    "lede": "Desenvolvemos software sob medida, plataformas web e aplicativos mobile com um time sênior no seu fuso horário — e produtos próprios rodando em produção.",
-    "ctaPrimary": "Solicitar orçamento grátis",
+    "eyebrow": "Engenharia de software · Miami e São Paulo",
+    "title": "Desenvolvimento de software sob medida para empresas do Brasil, EUA e Europa",
+    "lede": "Projetamos e entregamos sistemas, plataformas web e aplicativos mobile com uma equipe especializada que trabalha no seu fuso horário. Além dos projetos para clientes, mantemos produtos próprios em operação.",
+    "ctaPrimary": "Solicitar proposta",
     "ctaSecondary": "Ver serviços ↓",
     "trust": [
-      "+10 anos de experiência",
+      "Mais de 10 anos de experiência em engenharia de software",
       "Escritórios em Miami e São Paulo",
       "Fuso horário alinhado com EUA e Europa"
     ],
     "mockUrl": "wacoders.com/projetos",
-    "mockTitle": "PRODUTOS PRÓPRIOS EM PRODUÇÃO",
+    "mockTitle": "PRODUTOS PRÓPRIOS EM OPERAÇÃO",
     "mockStatus": "No ar",
     "mockOffices": "ESCRITÓRIOS",
     "caption": "Produtos e escritórios reais da WA Coders."
   },
   "services": {
-    "eyebrow": "O que fazemos",
+    "eyebrow": "Soluções",
     "title": "Serviços de Desenvolvimento de Software",
-    "subtitle": "Da primeira ideia até o produto no ar nas mãos dos seus clientes — nós desenhamos, construímos e mantemos o software que roda o seu negócio. Todo projeto é conduzido por engenheiros sênior que já escrevem código pronto para produção desde o primeiro dia, não juniores aprendendo com o seu orçamento.",
+    "subtitle": "Da concepção ao produto em operação, projetamos, desenvolvemos e evoluímos o software que sustenta o seu negócio. Cada projeto é conduzido por engenheiros experientes, com código pronto para produção desde a primeira entrega.",
     "items": [
       {
         "title": "Desenvolvimento de Software Personalizado",
-        "desc": "Aplicações full-stack construídas em torno da lógica do seu negócio — de ferramentas internas a plataformas voltadas ao cliente. Cuidamos da arquitetura, banco de dados, APIs e das interfaces que seu time e seus clientes usam todos os dias, tudo pensado para crescer junto com você."
+        "desc": "Aplicações full-stack construídas sobre as regras do seu negócio, de ferramentas internas a plataformas para clientes. Cuidamos da arquitetura, do banco de dados, das APIs e das interfaces, com foco em escalabilidade e manutenção a longo prazo."
       },
       {
         "title": "Desenvolvimento Web",
-        "desc": "Sites e aplicações web rápidas e responsivas, construídos com frameworks modernos como Angular e React. Otimizamos cada página para conversão, velocidade de carregamento e visibilidade nos motores de busca, para o seu site transformar visitantes em leads."
+        "desc": "Sites e aplicações web rápidos e responsivos, desenvolvidos com Angular e React. Cada página é otimizada para desempenho, conversão e visibilidade nos mecanismos de busca."
       },
       {
         "title": "Desenvolvimento de Aplicativos Mobile",
-        "desc": "Aplicativos nativos e multiplataforma para iOS e Android, construídos com foco em performance e experiência do usuário. Do primeiro wireframe até a publicação na App Store e no Google Play, cuidamos de todo o ciclo de desenvolvimento mobile."
+        "desc": "Aplicativos nativos e multiplataforma para iOS e Android, com foco em desempenho e experiência do usuário. Acompanhamos todo o ciclo, do protótipo à publicação na App Store e no Google Play."
       },
       {
-        "title": "Times de Desenvolvimento Dedicados",
-        "desc": "Engenheiros sênior integrados diretamente ao seu time, com contrato mensal flexível — sem processo de recrutamento, atraso de onboarding ou compromisso de longo prazo. Escale sua capacidade de desenvolvimento conforme o seu roadmap muda, sem o custo de contratação local."
+        "title": "Equipes de Desenvolvimento Dedicadas",
+        "desc": "Profissionais de engenharia integrados ao seu time com contrato mensal flexível, sem processo de recrutamento nem compromisso de longo prazo. A capacidade acompanha o seu roadmap."
       },
       {
         "title": "Design UX/UI",
-        "desc": "Pesquisa de usuário, wireframes e design de interface que transformam produtos complexos em experiências que seus clientes gostam de usar. Desenhamos no Figma, validamos com usuários reais e entregamos componentes prontos para seus desenvolvedores implementarem."
+        "desc": "Pesquisa com usuários, wireframes e design de interface que tornam produtos complexos simples de usar. Projetamos no Figma, validamos com usuários reais e entregamos componentes prontos para implementação."
       },
       {
         "title": "Integrações e Modernização",
-        "desc": "Conecte seu CRM, gateway de pagamento, ERP ou qualquer sistema de terceiros ao software que você já tem. Também migramos plataformas legadas para stacks modernas sem interromper as operações que dependem delas."
+        "desc": "Integração entre CRM, gateways de pagamento, ERP e sistemas de terceiros, e migração de plataformas legadas para arquiteturas modernas, sem interromper a operação."
       }
     ]
   },
   "features": {
     "eyebrow": "Por que a WA Coders",
-    "title": "Uma software house que entende de negócios.",
-    "desc": "Combinamos profundo conhecimento técnico com os objetivos do seu negócio para entregar software que realmente gera resultado. Como um time nearshore baseado em Miami e São Paulo, trabalhamos no seu fuso horário, nos comunicamos com fluência em inglês e seguimos os mesmos padrões de engenharia que você esperaria de um time sênior interno — sem o custo de montar um do zero.",
+    "title": "Engenharia de software orientada a resultados de negócio.",
+    "desc": "Unimos domínio técnico e visão de negócio para entregar software que gera resultado mensurável. Atuamos a partir de Miami e São Paulo, no fuso horário do cliente, com comunicação fluente em inglês e os mesmos padrões de engenharia de um time interno, sem o custo de montar um do zero.",
     "items": [
       "Equipes multidisciplinares e qualificadas.",
-      "Desenvolvimento com apoio de IA que acelera a entrega sem abrir mão da qualidade.",
-      "Agilidade, flexibilidade e transparência.",
+      "Desenvolvimento apoiado por IA, que acelera as entregas sem abrir mão da qualidade.",
+      "Agilidade, flexibilidade e transparência em cada etapa.",
       "Profissionais com mais de 10 anos de experiência.",
-      "Fuso horário alinhado com EUA e Europa — colaboração em tempo real, não atrasos assíncronos.",
-      "Comunicação fluente em inglês e repasses claros e documentados em cada etapa."
+      "Fuso horário alinhado com EUA e Europa, para colaboração em tempo real.",
+      "Comunicação fluente em inglês e entregas documentadas."
     ],
-    "cta": "Solicitar orçamento grátis"
+    "cta": "Solicitar proposta"
   },
   "portfolio": {
     "eyebrow": "Portfólio",
     "title": "Nosso Trabalho",
-    "subtitle": "Produtos reais que desenhamos, construímos e continuamos mantendo — não são mockups de agência.",
+    "subtitle": "Produtos reais, projetados, desenvolvidos e mantidos pela nossa equipe.",
     "visit": "Visitar site",
     "sapLink": "Conhecer a solução SAP/CRM",
     "cta": "Quer algo assim para o seu negócio?",
@@ -146,64 +145,68 @@
   },
   "process": {
     "eyebrow": "Como trabalhamos",
-    "title": "Nosso processo. Simples, transparente, liderado por sênior.",
-    "subtitle": "Sem fases de descoberta intermináveis ou informação perdida nos repasses. Você fala direto com engenheiros sênior desde o primeiro dia, e sabe exatamente o que está sendo construído e quando.",
+    "title": "Nosso processo: simples, transparente e conduzido por especialistas.",
+    "subtitle": "Sem fases de descoberta intermináveis e sem informação perdida nos repasses. Você fala diretamente com os engenheiros do projeto desde o primeiro dia e acompanha o que está sendo construído e quando.",
     "steps": [
       {
-        "title": "Diga-nos o que você precisa",
-        "desc": "Preencha um formulário para que possamos entender sua empresa."
+        "title": "Conte o que você precisa",
+        "desc": "Preencha o formulário para entendermos a sua empresa e o seu desafio."
       },
       {
-        "title": "Obtenha orçamentos grátis",
-        "desc": "Discutiremos então a estrutura e abordagem da equipe, cronograma, orçamento e conjuntos de habilidades necessários."
+        "title": "Receba uma proposta",
+        "desc": "Definimos estrutura da equipe, abordagem, cronograma, orçamento e as competências necessárias."
       },
       {
-        "title": "Iniciar projeto",
-        "desc": "Em questão de dias, finalizaremos as especificações do seu projeto, definiremos um modelo de desenvolvimento, selecionaremos e integraremos sua equipe."
+        "title": "Inicie o projeto",
+        "desc": "Em poucos dias fechamos as especificações, definimos o modelo de desenvolvimento e integramos a equipe ao seu projeto."
       }
     ],
-    "cta": "Começar"
+    "cta": "Iniciar conversa"
   },
   "tech": {
     "eyebrow": "Stack",
-    "title": "Tecnologias e aplicações",
-    "subtitle": "Usamos as melhores tecnologias atuais.  Abaixo apresentamos as linguagens e frameworks nos quais trabalhamos e temos expertise."
+    "title": "Tecnologias",
+    "subtitle": "Trabalhamos com tecnologias consolidadas no mercado. Estas são as linguagens, frameworks e plataformas em que temos experiência."
   },
   "faq": {
     "eyebrow": "Perguntas frequentes",
-    "title": "Antes de falar com a gente, você provavelmente quer saber:",
+    "title": "Antes de entrar em contato, você provavelmente quer saber:",
     "items": [
       {
         "q": "Como funciona o modelo nearshore da WA Coders?",
-        "a": "Somos um time sênior com escritórios em Miami e São Paulo. Trabalhamos no fuso horário da sua empresa nos EUA, na Europa ou no Brasil, com colaboração em tempo real, comunicação fluente em inglês e repasses documentados em cada etapa."
+        "a": "Temos escritórios em Miami e São Paulo e trabalhamos no fuso horário da sua empresa, nos EUA, na Europa ou no Brasil. A colaboração acontece em tempo real, com comunicação fluente em inglês e documentação em cada etapa."
       },
       {
         "q": "Quais serviços a WA Coders oferece?",
-        "a": "Desenvolvimento de software sob medida, desenvolvimento web, aplicativos mobile (iOS e Android), times de desenvolvimento dedicados, design UX/UI, integrações e modernização de sistemas legados, e personalização de SAP Business One e CRM C4C."
+        "a": "Desenvolvimento de software sob medida, desenvolvimento web, aplicativos mobile (iOS e Android), equipes dedicadas, design UX/UI, integrações e modernização de sistemas legados, e personalização de SAP Business One e CRM C4C."
+      },
+      {
+        "q": "Vocês implementam IA, chatbots e RAG?",
+        "a": "Sim. Projetamos e integramos soluções de inteligência artificial, como chatbots, assistentes virtuais e RAG (geração aumentada por recuperação), conectadas aos documentos, bancos de dados e sistemas da sua empresa, como CRM e ERP."
       },
       {
         "q": "Com quais tecnologias vocês trabalham?",
-        "a": "Angular, React, Node.js, Java, .NET, React Native, Flutter, Swift, Android, MongoDB, MySQL, Docker, AWS, Azure, Google Cloud e WordPress."
+        "a": "Angular, React, TypeScript, Node.js, Python, Java, .NET, React Native, Flutter, Swift, Android, MongoDB, MySQL, PostgreSQL, Docker, AWS, Azure, Google Cloud, WordPress e Figma, além de SAP Business One/C4C, Microsoft Dynamics 365 e modelos de IA como Claude (Anthropic) e GPT (OpenAI)."
       },
       {
-        "q": "Como contratar um time dedicado?",
-        "a": "Engenheiros sênior entram direto no seu time com contrato mensal flexível, sem processo de recrutamento nem compromisso de longo prazo. Você aumenta ou reduz a capacidade conforme o seu roadmap muda."
+        "q": "Como funciona a contratação de uma equipe dedicada?",
+        "a": "Profissionais de engenharia passam a integrar o seu time com contrato mensal flexível, sem processo de recrutamento nem compromisso de longo prazo. A capacidade aumenta ou diminui conforme o seu roadmap."
       },
       {
-        "q": "Como peço um orçamento e em quanto tempo recebo retorno?",
-        "a": "Preencha o formulário de contato ou chame no WhatsApp. Respondemos em menos de 24 horas, entendemos o seu negócio, discutimos estrutura do time, prazo e orçamento, e em poucos dias fechamos as especificações do projeto."
+        "q": "Como solicito uma proposta e em quanto tempo recebo retorno?",
+        "a": "Preencha o formulário de contato ou fale conosco pelo WhatsApp. Respondemos em até 24 horas, entendemos o seu negócio, discutimos estrutura da equipe, prazo e orçamento e, em poucos dias, fechamos as especificações do projeto."
       },
       {
         "q": "Vocês personalizam o SAP Business One e o CRM C4C?",
-        "a": "Sim. Construímos uma camada de personalização sobre os dados do seu SAP Business One e CRM C4C, a partir do Opportunity, nossa plataforma testada em produção, adaptada aos fluxos de aprovação, regras e identidade visual da sua empresa."
+        "a": "Sim. Construímos uma camada de personalização sobre os dados do seu SAP Business One e CRM C4C a partir do Opportunity, nossa plataforma validada em produção, adaptada aos fluxos de aprovação, às regras e à identidade visual da sua empresa."
       }
     ]
   },
   "cta": {
     "title": "Vamos conversar sobre o seu projeto?",
-    "subtitle": "Conte o que você precisa. Analisamos o seu projeto e alinhamos orçamento e entregas, sem compromisso.",
+    "subtitle": "Conte-nos o seu desafio. Analisamos o projeto e alinhamos escopo, orçamento e prazos, sem compromisso.",
     "button": "Falar com a WA Coders",
-    "whatsapp": "Chamar no WhatsApp"
+    "whatsapp": "Falar pelo WhatsApp"
   },
   "contact": {
     "eyebrow": "Contato",
@@ -229,23 +232,115 @@
         "mobile": "Desenvolvimento de aplicativo mobile",
         "team": "Time de desenvolvimento dedicado",
         "design": "Design UX/UI e branding",
-        "integrations": "Integrações e modernização",
+        "integrations": "Integrações e modernização de software",
         "sap": "Personalização SAP/CRM",
-        "other": "Outros"
-      }
+        "other": "Outros",
+        "dynamics": "Customização Dynamics/CRM",
+        "ai": "Inteligência artificial, chatbot e RAG"
+      },
+      "privacyPre": "Ao enviar, você concorda com o tratamento dos seus dados conforme a ",
+      "privacyLink": "Política de Privacidade",
+      "privacyPost": "."
     },
-    "title": "Entre em Contato",
-    "subtitle": "Quer saber mais sobre como trabalhamos, falar sobre seus desafios ou fazer perguntas? Entre em contato. Adoramos trocar ideias sobre produtos digitais! Preencha o formulário e receba contato em menos de 24 horas."
+    "title": "Entre em contato",
+    "subtitle": "Quer entender como trabalhamos, discutir um desafio ou tirar dúvidas? Preencha o formulário e retornamos em até 24 horas."
   },
   "footer": {
-    "tagline": "Software house com escritórios em Miami e São Paulo. Software sob medida, web, mobile e SAP/CRM.",
+    "tagline": "Engenharia de software com escritórios em Miami e São Paulo. Sistemas sob medida, web, mobile e personalização SAP/CRM.",
     "company": "Empresa",
     "services": "Serviços",
     "contactLabel": "Contato",
     "offices": "Escritórios",
     "rights": "Todos os direitos reservados.",
-    "whatsappLabel": "WhatsApp"
+    "whatsappLabel": "WhatsApp",
+    "privacy": "Política de Privacidade",
+    "cookies": "Preferências de cookies"
   },
   "floatWhatsapp": "Falar no WhatsApp",
-  "skip": "Pular para o conteúdo"
+  "skip": "Pular para o conteúdo",
+  "dynamicsTeaser": {
+    "eyebrow": "Microsoft Dynamics 365 · CRM",
+    "title": "Customização Dynamics / CRM",
+    "subtitle": "Clientes, projetos e dados financeiros em uma única visão.",
+    "desc": "Construímos painéis sob medida sobre os dados do seu Dynamics 365 / CRM e dos seus sistemas financeiros, para acompanhar clientes, projetos e resultado sem exportar planilhas.",
+    "items": [
+      {
+        "title": "Clientes",
+        "desc": "Histórico, contratos e relacionamento direto do Dynamics."
+      },
+      {
+        "title": "Projetos",
+        "desc": "Orçamento, prazo e andamento de cada projeto."
+      },
+      {
+        "title": "Financeiro",
+        "desc": "Faturamento, custos e margem ao lado de cada cliente."
+      }
+    ],
+    "ctaPage": "Conhecer a solução Dynamics/CRM"
+  },
+  "ai": {
+    "serviceName": "Implementação de IA, RAG e chatbots",
+    "eyebrow": "Inteligência artificial",
+    "title": "IA aplicada ao seu negócio, com os seus dados.",
+    "lede": "Implementamos soluções de inteligência artificial e as integramos aos sistemas que a sua empresa já usa: assistentes e chatbots que respondem com base nos seus documentos e dados, com RAG, e não com respostas genéricas.",
+    "items": [
+      {
+        "title": "Chatbots e assistentes virtuais",
+        "desc": "Atendimento ao cliente e consulta interna em linguagem natural, com respostas ancoradas na informação da sua empresa."
+      },
+      {
+        "title": "RAG sobre os seus dados",
+        "desc": "Recuperação de informação em documentos, bases de conhecimento e sistemas, combinada a modelos de linguagem para respostas precisas e rastreáveis até a fonte."
+      },
+      {
+        "title": "Integração com os seus sistemas",
+        "desc": "Conexão com CRM, ERP, bancos de dados e APIs, para que a IA consulte e atue sobre a informação onde ela já está."
+      },
+      {
+        "title": "Implantação e evolução",
+        "desc": "Do levantamento do caso de uso à avaliação da qualidade das respostas e à melhoria contínua da solução."
+      }
+    ],
+    "flowTitle": "COMO FUNCIONA O RAG",
+    "flow": [
+      "Seus dados",
+      "Indexação",
+      "Modelo de linguagem",
+      "Assistente"
+    ],
+    "flowCaption": "O modelo responde com base nas informações da sua empresa, e não apenas no conhecimento geral.",
+    "proof": "Experiência própria em produtos com IA:",
+    "proofLink": "JuriOne e Upsee",
+    "cta": "Conversar sobre IA"
+  },
+  "consent": {
+    "label": "Cookies",
+    "title": "Cookies de análise",
+    "text": "Usamos cookies do Google Analytics e do Hotjar para entender como o site é usado e melhorá-lo. Eles só são ativados se você aceitar.",
+    "accept": "Aceitar",
+    "reject": "Recusar",
+    "more": "Política de Privacidade"
+  },
+  "related": {
+    "eyebrow": "Veja também",
+    "title": "Outras soluções da WA Coders",
+    "items": {
+      "sap": {
+        "title": "Customização SAP/CRM",
+        "desc": "Pagamentos aprovados por alçada, pipeline e relatórios sobre o SAP Business One e o CRM C4C.",
+        "cta": "Conhecer a solução SAP/CRM"
+      },
+      "dynamics": {
+        "title": "Customização Dynamics/CRM",
+        "desc": "Clientes, projetos e dados financeiros do Dynamics 365 em painéis sob medida.",
+        "cta": "Conhecer a solução Dynamics/CRM"
+      },
+      "ai": {
+        "title": "IA, RAG e chatbots",
+        "desc": "Assistentes e chatbots que respondem com base nos dados e documentos da sua empresa.",
+        "cta": "Conhecer a solução de IA"
+      }
+    }
+  }
 }

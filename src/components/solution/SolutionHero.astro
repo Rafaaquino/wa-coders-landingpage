@@ -10,7 +10,7 @@ const bars = [
 ---
 
 <section class="pb-24 pt-16 md:pb-24 md:pt-20">
-  <div class="mx-auto grid max-w-container gap-12 px-6 md:grid-cols-[1.05fr_1fr] md:items-center md:gap-14 md:px-10">
+  <div class="mx-auto grid grid-cols-1 max-w-container gap-12 px-6 md:grid-cols-[minmax(0,1.05fr)_minmax(0,1fr)] md:items-center md:gap-14 md:px-10">
     <div>
       <p class="mb-3.5 font-mono text-xs uppercase tracking-wider text-accent2">{t.eyebrow}</p>
       <h1 class="text-[2.15rem] leading-[1.14] md:text-[2.85rem]">{t.title}</h1>
@@ -28,7 +28,7 @@ const bars = [
           <span class="h-2.5 w-2.5 rounded-full" style="background:#e7515a"></span>
           <span class="h-2.5 w-2.5 rounded-full" style="background:#e2a03f"></span>
           <span class="h-2.5 w-2.5 rounded-full" style="background:#00ab55"></span>
-          <span class="ml-2.5 rounded-md border border-line bg-white px-3 py-1 font-mono text-[11.5px] text-muted">{t.mockUrl}</span>
+          <span class="ml-2.5 min-w-0 truncate rounded-md border border-line bg-white px-3 py-1 font-mono text-[11.5px] text-muted">{t.mockUrl}</span>
         </div>
         <div class="p-5">
           <div class="mb-4.5 grid grid-cols-1 gap-3 sm:grid-cols-3">
@@ -48,7 +48,7 @@ const bars = [
               <div class="mt-1 font-mono text-[11px] text-success-text">{t.stat3Delta}</div>
             </div>
           </div>
-          <div class="grid grid-cols-1 gap-4 sm:grid-cols-[1.1fr_1fr]">
+          <div class="grid grid-cols-1 gap-4 sm:grid-cols-[minmax(0,1.1fr)_minmax(0,1fr)]">
             <div class="rounded-lg border border-line bg-surface p-3.5">
               <div class="mb-3.5 text-[11px] text-muted">{t.chartTitle}</div>
               <div class="flex h-24 items-end gap-2.5">

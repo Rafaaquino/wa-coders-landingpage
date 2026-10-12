@@ -1,4 +1,4 @@
-# WA Coders — https://www.wacoders.com/
+# WA Coders — https://wacoders.com/
 User-agent: *
 Allow: /
 
@@ -33,4 +33,4 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
-Sitemap: https://www.wacoders.com/sitemap-index.xml
+Sitemap: https://wacoders.com/sitemap-index.xml

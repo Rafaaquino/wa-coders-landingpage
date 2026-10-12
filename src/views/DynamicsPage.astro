@@ -1,0 +1,44 @@
+---
+import Layout from '../layouts/Layout.astro';
+import SolutionHero from '../components/solution/SolutionHero.astro';
+import SolutionIntro from '../components/solution/SolutionIntro.astro';
+import FinanceSpotlight from '../components/solution/FinanceSpotlight.astro';
+import PainPoints from '../components/solution/PainPoints.astro';
+import HowItWorks from '../components/solution/HowItWorks.astro';
+import Integrations from '../components/solution/Integrations.astro';
+import Modules from '../components/solution/Modules.astro';
+import Differentiators from '../components/solution/Differentiators.astro';
+import Faq from '../components/Faq.astro';
+import SolutionCta from '../components/solution/SolutionCta.astro';
+import RelatedSolutions from '../components/solution/RelatedSolutions.astro';
+import { home, dynamics } from '../i18n';
+import { localePath, type Locale } from '../i18n/locales';
+import { faqSchema, breadcrumbSchema, pageServiceSchema } from '../lib/schema';
+
+interface Props { lang: Locale }
+const { lang } = Astro.props;
+const t = home[lang];
+const d = dynamics[lang];
+const schema = [
+  breadcrumbSchema([
+    { name: d.breadcrumb, path: localePath(lang) },
+    { name: t.nav.dynamics, path: localePath(lang, 'dynamics-crm/') },
+  ]),
+  pageServiceSchema(d.intro.title, d.meta.description, lang, 'dynamics-crm/'),
+  faqSchema(d.faq.items, lang),
+];
+---
+
+<Layout lang={lang} t={t} page="dynamics-crm/" title={d.meta.title} description={d.meta.description} schema={schema}>
+  <SolutionHero t={d.hero} />
+  <SolutionIntro t={d.intro} />
+  <FinanceSpotlight t={d.finance} />
+  <PainPoints t={d.pains} />
+  <HowItWorks t={d.how} />
+  <Integrations t={d.integrations} />
+  <Modules t={d.modules} />
+  <Differentiators t={d.diff} />
+  <Faq t={d.faq} />
+  <RelatedSolutions t={t.related} lang={lang} current="dynamics" />
+  <SolutionCta t={d.cta} msgs={t.contact.form} formId="dynamics-form" privacyHref={localePath(lang, 'privacy/')} privacyLabel={t.footer.privacy} />
+</Layout>

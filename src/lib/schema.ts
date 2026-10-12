@@ -86,3 +86,16 @@ export function portfolioSchema(items: { name: string; tagline: string; desc: st
     })),
   };
 }
+
+export function pageServiceSchema(name: string, description: string, lang: Locale, page: string) {
+  return {
+    '@type': 'Service',
+    name,
+    description,
+    serviceType: name,
+    provider: { '@id': `${site.url}/#organization` },
+    areaServed: ['United States', 'Europe', 'Brazil'],
+    inLanguage: hreflang[lang],
+    url: abs(localePath(lang, page)),
+  };
+}

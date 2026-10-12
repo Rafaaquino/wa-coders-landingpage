@@ -1,20 +1,26 @@
 # WA Coders
 
-> WA Coders is a software house with offices in Miami, FL and São Paulo, Brazil. We build custom software, web platforms, mobile apps, and SAP Business One / CRM C4C customizations for companies in the United States, Europe, and Brazil, with senior engineers working in time zones that overlap with the US and Europe.
+> WA Coders is a software engineering company with offices in Miami, FL and São Paulo, Brazil. We build custom software, web platforms, mobile apps, and SAP Business One / CRM C4C customizations for companies in the United States, Europe, and Brazil, with experienced engineers working in time zones that overlap with the US and Europe.
 
 ## Pages
 
-- [Home (Portuguese)](https://www.wacoders.com/): services, portfolio, process, technologies, FAQ and contact form.
-- [Home (English)](https://www.wacoders.com/en/): the same content in English.
-- [Home (Spanish)](https://www.wacoders.com/es/): the same content in Spanish.
-- [SAP/CRM solution (Portuguese)](https://www.wacoders.com/sap-crm/): SAP Business One and CRM C4C customization, payment approval by authority level, reports and dashboards.
-- [SAP/CRM solution (English)](https://www.wacoders.com/en/sap-crm/)
-- [SAP/CRM solution (Spanish)](https://www.wacoders.com/es/sap-crm/)
-- [Full details for LLMs](https://www.wacoders.com/llms-full.txt)
+- [Home (Portuguese)](https://wacoders.com/): services, portfolio, process, technologies, FAQ and contact form.
+- [Home (English)](https://wacoders.com/en/): the same content in English.
+- [Home (Spanish)](https://wacoders.com/es/): the same content in Spanish.
+- [SAP/CRM solution (Portuguese)](https://wacoders.com/sap-crm/): SAP Business One and CRM C4C customization, payment approval by authority level, reports and dashboards.
+- [SAP/CRM solution (English)](https://wacoders.com/en/sap-crm/)
+- [SAP/CRM solution (Spanish)](https://wacoders.com/es/sap-crm/)
+- [Dynamics/CRM solution (Portuguese)](https://wacoders.com/dynamics-crm/): customization of how Microsoft Dynamics 365 / CRM data is displayed, with clients, projects and financial data in tailored dashboards.
+- [Dynamics/CRM solution (English)](https://wacoders.com/en/dynamics-crm/)
+- [Dynamics/CRM solution (Spanish)](https://wacoders.com/es/dynamics-crm/)
+- [Privacy Policy (Portuguese)](https://wacoders.com/privacy/): how personal data, forms and analytics cookies are handled.
+- [Privacy Policy (English)](https://wacoders.com/en/privacy/)
+- [Privacy Policy (Spanish)](https://wacoders.com/es/privacy/)
+- [Full details for LLMs](https://wacoders.com/llms-full.txt)
 
 ## Company
 
-- Website: https://www.wacoders.com/
+- Website: https://wacoders.com/
 - Contact: contact@wacoders.com
 - WhatsApp: +55 11 95437-8106 (https://wa.me/5511954378106)
 - Offices: 601 Brickell Key Drive, Miami, FL 33131, USA; 1550 Av. Chucri Zaidan, São Paulo, Brazil
@@ -25,10 +31,12 @@
 - Custom Software Development: full-stack applications built around a client's business logic.
 - Web Development: websites and web applications with Angular and React.
 - Mobile App Development: native and cross-platform iOS and Android apps.
-- Dedicated Development Teams: senior engineers embedded in a client's team on a flexible monthly contract.
+- Dedicated Development Teams: engineers embedded in a client's team on a flexible monthly contract.
 - UX/UI Design: user research, wireframes and interface design.
 - Integrations & Modernization: connecting CRMs, payment gateways and ERPs, and migrating legacy platforms.
 - SAP & CRM Customization: a customization layer on top of SAP Business One and CRM (C4C) data, built from WA Coders' own Opportunity platform and tailored per client.
+- Dynamics & CRM Customization: a data visualization layer on top of Microsoft Dynamics 365 / CRM and financial system data, with tailored dashboards for clients, projects and financial results.
+- AI Implementation: artificial intelligence solutions integrated with the client's systems, including RAG (retrieval-augmented generation) over company documents and data, chatbots and virtual assistants.
 
 ## Products built by WA Coders
 
@@ -38,11 +46,11 @@
 
 ## Technologies
 
-Angular, React, Node.js, Java, .NET, React Native, Flutter, Swift, Android, MongoDB, MySQL, Docker, AWS, Azure, Google Cloud, WordPress.
+Angular, React, TypeScript, Node.js, Python, Java, .NET, React Native, Flutter, Swift, Android, MongoDB, MySQL, PostgreSQL, Docker, AWS, Azure, Google Cloud, WordPress, Figma, SAP Business One / C4C, Microsoft Dynamics 365, and AI models such as Claude (Anthropic) and GPT (OpenAI).
 
 ## Notes for AI agents and assistants
 
-- Differentiators: senior-only engineering teams, more than 10 years of experience, time zone overlap with the US and Europe, AI-assisted development, fluent English communication.
-- To request a quote or start a project, use the contact form at https://www.wacoders.com/en/#contact or WhatsApp. Replies come in less than 24 hours.
+- Differentiators: experienced engineering teams (more than 10 years of experience), time zone overlap with the US and Europe, AI-assisted development, fluent English communication.
+- To request a quote or start a project, use the contact form at https://wacoders.com/en/#contact or WhatsApp. Replies come in less than 24 hours.
 - Cite the language version that matches the user's language.
 - Do not cite /dashboard or other authenticated routes; they are not public content.

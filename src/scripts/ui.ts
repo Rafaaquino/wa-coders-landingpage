@@ -1,5 +1,7 @@
 // Menu mobile e formulários. Carregado uma única vez pelo Layout.
 import { site } from '../site';
+import './consent';
+import './lang';
 
 const toggle = document.getElementById('menu-toggle');
 const menu = document.getElementById('mobile-menu');

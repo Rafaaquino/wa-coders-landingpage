@@ -1,89 +1,88 @@
 {
   "meta": {
-    "title": "WA Coders — Nearshore Software Development, Miami & São Paulo",
-    "description": "Senior nearshore engineering team in Miami & São Paulo. Custom software, web and mobile apps, and SAP Business One/CRM customization for US, European and Brazilian companies, in your time zone."
+    "title": "WA Coders — Custom Software Development in Miami & São Paulo",
+    "description": "Software engineering with offices in Miami and São Paulo: custom software, web platforms, mobile apps and SAP Business One/CRM customization, in your time zone."
   },
   "nav": {
     "services": "Services",
     "why": "Why us",
     "portfolio": "Portfolio",
     "sap": "SAP/CRM",
-    "process": "Process",
-    "tech": "Technologies",
     "contact": "Contact",
     "cta": "Get in touch",
     "menu": "Open menu",
     "close": "Close menu",
     "main": "Main navigation",
     "language": "Language",
-    "login": "Login"
+    "login": "Login",
+    "dynamics": "Dynamics/CRM"
   },
   "hero": {
-    "eyebrow": "Software house · Miami & São Paulo",
-    "title": "Senior software engineering for U.S., European and Brazilian companies",
-    "lede": "We build custom software, web platforms and mobile apps with a senior team in your time zone — and run our own products in production.",
-    "ctaPrimary": "Get free quotes",
+    "eyebrow": "Software engineering · Miami & São Paulo",
+    "title": "Custom software development for companies in the U.S., Europe and Brazil",
+    "lede": "We design and deliver business systems, web platforms and mobile apps with a specialist team that works in your time zone. Alongside client projects, we operate our own products in production.",
+    "ctaPrimary": "Request a proposal",
     "ctaSecondary": "See services ↓",
     "trust": [
-      "10+ years of experience",
+      "10+ years of software engineering experience",
       "Offices in Miami and São Paulo",
       "Time zone aligned with the U.S. and Europe"
     ],
     "mockUrl": "wacoders.com/projects",
-    "mockTitle": "OWN PRODUCTS IN PRODUCTION",
+    "mockTitle": "OWN PRODUCTS IN OPERATION",
     "mockStatus": "Live",
     "mockOffices": "OFFICES",
     "caption": "Real WA Coders products and offices."
   },
   "services": {
-    "eyebrow": "What we do",
+    "eyebrow": "Solutions",
     "title": "Software Development Services",
-    "subtitle": "From your first idea to a live product in your customers' hands — we design, build, and maintain the software your business runs on. Every engagement is staffed with senior engineers who write production-ready code from day one, not junior developers learning on your budget.",
+    "subtitle": "From concept to a product in operation, we design, build and evolve the software your business runs on. Every project is led by experienced engineers and delivers production-ready code from the first release.",
     "items": [
       {
         "title": "Custom Software Development",
-        "desc": "Full-stack applications built around your business logic — from internal tools to customer-facing platforms. We handle architecture, database design, APIs, and the front-end interfaces your team and customers interact with every day, all built to scale as you grow."
+        "desc": "Full-stack applications built around your business rules, from internal tools to customer-facing platforms. We handle architecture, database design, APIs and interfaces, with scalability and long-term maintainability in mind."
       },
       {
         "title": "Web Development",
-        "desc": "Fast, responsive websites and web applications built with modern frameworks like Angular and React. We optimize every page for conversion, page speed, and search visibility, so your site turns visitors into leads instead of just looking good."
+        "desc": "Fast, responsive websites and web applications built with Angular and React. Every page is optimized for performance, conversion and search visibility."
       },
       {
         "title": "Mobile App Development",
-        "desc": "Native and cross-platform iOS and Android apps, built for performance and a seamless user experience. From the first wireframe to App Store and Google Play submission, we handle the full mobile development lifecycle."
+        "desc": "Native and cross-platform iOS and Android apps focused on performance and user experience. We support the full lifecycle, from prototype to App Store and Google Play release."
       },
       {
         "title": "Dedicated Development Teams",
-        "desc": "Senior engineers embedded directly in your team on a flexible monthly contract — no recruiting, onboarding delays, or long-term commitment. Scale your engineering capacity up or down as your roadmap changes, without the overhead of local hiring."
+        "desc": "Engineers integrated into your team on a flexible monthly contract, with no recruiting process and no long-term commitment. Capacity follows your roadmap."
       },
       {
         "title": "UX/UI Design",
-        "desc": "User research, wireframing, and interface design that turn complex products into experiences your customers actually enjoy using. We design in Figma, validate with real users, and hand off production-ready components your developers can implement directly."
+        "desc": "User research, wireframes and interface design that make complex products simple to use. We design in Figma, validate with real users and deliver components ready for implementation."
       },
       {
         "title": "Integrations & Modernization",
-        "desc": "Connect your CRM, payment gateway, ERP, or any third-party system to the software you already have. We also migrate legacy platforms to modern stacks without disrupting the operations that depend on them."
+        "desc": "Integration between your CRM, payment gateways, ERP and third-party systems, and migration of legacy platforms to modern architectures without interrupting operations."
       }
     ]
   },
   "features": {
     "eyebrow": "Why WA Coders",
-    "title": "A software house that understands business.",
-    "desc": "We combine deep engineering expertise with your business goals to ship software that actually moves the needle. As a nearshore team based in Miami and São Paulo, we work inside your time zone, communicate fluently in English, and follow the same engineering standards you'd expect from an in-house senior team — without the overhead of building one from scratch.",
+    "title": "Software engineering built around business results.",
+    "desc": "We combine technical depth with business insight to deliver software that produces measurable results. We work from Miami and São Paulo, in our clients’ time zone, with fluent English communication and the engineering standards of an in-house team, without the cost of building one from scratch.",
     "items": [
-      "Multidisciplinary and qualified teams.",
-      "AI-assisted development that speeds up delivery without cutting corners on quality.",
-      "Agility, flexibility and transparency.",
+      "Multidisciplinary, qualified teams.",
+      "AI-assisted development that speeds up delivery without compromising quality.",
+      "Agility, flexibility and transparency at every stage.",
       "Professionals with more than 10 years of experience.",
-      "Overlapping time zones with the U.S. and Europe — real-time collaboration, not async delays.",
-      "Fluent English communication and clear, documented handoffs at every stage."
+      "Time zone aligned with the U.S. and Europe for real-time collaboration.",
+      "Fluent English communication and documented deliverables."
     ],
-    "cta": "Get free quotes"
+    "cta": "Request a proposal"
   },
   "portfolio": {
     "eyebrow": "Portfolio",
     "title": "Our Work",
-    "subtitle": "Real products we've designed, built, and continue to maintain — not agency mockups.",
+    "subtitle": "Real products designed, built and maintained by our team.",
     "visit": "Visit website",
     "sapLink": "Explore the SAP/CRM solution",
     "cta": "Want something like this for your business?",
@@ -146,64 +145,68 @@
   },
   "process": {
     "eyebrow": "How we work",
-    "title": "Our process. Simple, transparent, senior-led.",
-    "subtitle": "No lengthy discovery phases or details lost in handoffs. You talk directly with senior engineers from day one, and always know exactly what's being built and when.",
+    "title": "Our process: simple, transparent and led by specialists.",
+    "subtitle": "No endless discovery phases and no details lost in handoffs. You work directly with the project’s engineers from day one and always know what is being built and when.",
     "steps": [
       {
         "title": "Tell us what you need",
-        "desc": "Fill out a form so we can understand your company."
+        "desc": "Fill out the form so we can understand your company and your challenge."
       },
       {
-        "title": "Get free quotes",
-        "desc": "We will then discuss team structure and approach, timeline, budget, and required skill sets."
+        "title": "Receive a proposal",
+        "desc": "We define team structure, approach, timeline, budget and the skills required."
       },
       {
-        "title": "Start project",
-        "desc": "In a matter of days, we will finalize your project specifications, define a development model, select and onboard your team."
+        "title": "Start the project",
+        "desc": "Within days we finalize specifications, define the development model and onboard the team to your project."
       }
     ],
-    "cta": "Get Started"
+    "cta": "Start a conversation"
   },
   "tech": {
     "eyebrow": "Stack",
-    "title": "Technologies and applications",
-    "subtitle": "We use the best current technologies.  Below we present the languages and frameworks in which we work and have expertise."
+    "title": "Technologies",
+    "subtitle": "We work with proven, widely adopted technologies. These are the languages, frameworks and platforms we have experience with."
   },
   "faq": {
     "eyebrow": "Frequently asked questions",
-    "title": "Before you talk to us, you probably want to know:",
+    "title": "Before you get in touch, you may want to know:",
     "items": [
       {
         "q": "How does the WA Coders nearshore model work?",
-        "a": "We are a senior team with offices in Miami and São Paulo. We work in your company’s time zone in the U.S., Europe or Brazil, with real-time collaboration, fluent English communication and documented handoffs at every stage."
+        "a": "We have offices in Miami and São Paulo and work in your company’s time zone, whether in the U.S., Europe or Brazil. Collaboration happens in real time, with fluent English communication and documentation at every stage."
       },
       {
         "q": "What services does WA Coders offer?",
-        "a": "Custom software development, web development, mobile apps (iOS and Android), dedicated development teams, UX/UI design, integrations and legacy modernization, and SAP Business One and CRM C4C customization."
+        "a": "Custom software development, web development, mobile apps (iOS and Android), dedicated teams, UX/UI design, integrations and legacy modernization, and SAP Business One and CRM C4C customization."
+      },
+      {
+        "q": "Do you implement AI, chatbots and RAG?",
+        "a": "Yes. We design and integrate artificial intelligence solutions, such as chatbots, virtual assistants and RAG (retrieval-augmented generation), connected to your company’s documents, databases and systems, such as CRM and ERP."
       },
       {
         "q": "Which technologies do you work with?",
-        "a": "Angular, React, Node.js, Java, .NET, React Native, Flutter, Swift, Android, MongoDB, MySQL, Docker, AWS, Azure, Google Cloud and WordPress."
+        "a": "Angular, React, TypeScript, Node.js, Python, Java, .NET, React Native, Flutter, Swift, Android, MongoDB, MySQL, PostgreSQL, Docker, AWS, Azure, Google Cloud, WordPress and Figma, plus SAP Business One/C4C, Microsoft Dynamics 365 and AI models such as Claude (Anthropic) and GPT (OpenAI)."
       },
       {
-        "q": "How do I hire a dedicated team?",
-        "a": "Senior engineers join your team directly on a flexible monthly contract — no recruiting process and no long-term commitment. You scale capacity up or down as your roadmap changes."
+        "q": "How does hiring a dedicated team work?",
+        "a": "Engineers join your team on a flexible monthly contract, with no recruiting process and no long-term commitment. Capacity scales up or down as your roadmap changes."
       },
       {
-        "q": "How do I request a quote, and how fast do you reply?",
-        "a": "Fill out the contact form or message us on WhatsApp. We reply in less than 24 hours, learn about your business, discuss team structure, timeline and budget, and within days we finalize the project specifications."
+        "q": "How do I request a proposal, and how fast do you reply?",
+        "a": "Fill out the contact form or message us on WhatsApp. We reply within 24 hours, learn about your business, discuss team structure, timeline and budget and, within days, finalize the project specifications."
       },
       {
         "q": "Do you customize SAP Business One and CRM C4C?",
-        "a": "Yes. We build a customization layer on top of your SAP Business One and CRM C4C data, starting from Opportunity — our production-tested platform — and tailored to your company’s approval workflows, rules and branding."
+        "a": "Yes. We build a customization layer on top of your SAP Business One and CRM C4C data, starting from Opportunity, our production-proven platform, and tailored to your approval workflows, rules and branding."
       }
     ]
   },
   "cta": {
     "title": "Let’s talk about your project?",
-    "subtitle": "Tell us what you need. We analyze your project and align budget and deliveries, with no commitment.",
+    "subtitle": "Tell us about your challenge. We analyze the project and align scope, budget and timelines, with no commitment.",
     "button": "Talk to WA Coders",
-    "whatsapp": "Chat on WhatsApp"
+    "whatsapp": "Message us on WhatsApp"
   },
   "contact": {
     "eyebrow": "Contact",
@@ -229,23 +232,115 @@
         "mobile": "Mobile app development",
         "team": "Dedicated development team",
         "design": "UX/UI design and branding",
-        "integrations": "Integrations and modernization",
+        "integrations": "Software Integrations and modernization",
         "sap": "SAP/CRM customization",
-        "other": "Others"
-      }
+        "other": "Others",
+        "dynamics": "Dynamics/CRM customization",
+        "ai": "Artificial intelligence, chatbot and RAG"
+      },
+      "privacyPre": "By submitting, you agree to the processing of your data as described in our ",
+      "privacyLink": "Privacy Policy",
+      "privacyPost": "."
     },
-    "title": "Get In Touch",
-    "subtitle": "Want to know more about how we work, talk about your challenges or ask questions? Contact us. We love exchanging ideas about digital products! Fill out the form and receive contact in less than 24 hours."
+    "title": "Get in touch",
+    "subtitle": "Want to understand how we work, discuss a challenge or ask a question? Fill out the form and we will reply within 24 hours."
   },
   "footer": {
-    "tagline": "Software house with offices in Miami and São Paulo. Custom software, web, mobile and SAP/CRM.",
+    "tagline": "Software engineering with offices in Miami and São Paulo. Custom systems, web, mobile and SAP/CRM customization.",
     "company": "Company",
     "services": "Services",
     "contactLabel": "Contact",
     "offices": "Offices",
     "rights": "All rights reserved.",
-    "whatsappLabel": "WhatsApp"
+    "whatsappLabel": "WhatsApp",
+    "privacy": "Privacy Policy",
+    "cookies": "Cookie preferences"
   },
   "floatWhatsapp": "Chat on WhatsApp",
-  "skip": "Skip to content"
+  "skip": "Skip to content",
+  "dynamicsTeaser": {
+    "eyebrow": "Microsoft Dynamics 365 · CRM",
+    "title": "Dynamics / CRM Customization",
+    "subtitle": "Clients, projects and financial data in a single view.",
+    "desc": "We build tailored dashboards on top of your Dynamics 365 / CRM and financial system data, to follow clients, projects and results without exporting spreadsheets.",
+    "items": [
+      {
+        "title": "Clients",
+        "desc": "History, contracts and relationship straight from Dynamics."
+      },
+      {
+        "title": "Projects",
+        "desc": "Budget, deadline and progress of each project."
+      },
+      {
+        "title": "Finance",
+        "desc": "Revenue, costs and margin next to each client."
+      }
+    ],
+    "ctaPage": "Explore the Dynamics/CRM solution"
+  },
+  "ai": {
+    "serviceName": "AI, RAG and chatbot implementation",
+    "eyebrow": "Artificial intelligence",
+    "title": "AI applied to your business, powered by your own data.",
+    "lede": "We implement artificial intelligence solutions and integrate them with the systems your company already uses: assistants and chatbots that answer from your documents and data using RAG, instead of giving generic replies.",
+    "items": [
+      {
+        "title": "Chatbots and virtual assistants",
+        "desc": "Customer support and internal lookup in natural language, with answers grounded in your company’s information."
+      },
+      {
+        "title": "RAG over your data",
+        "desc": "Information retrieval across documents, knowledge bases and systems, combined with language models for precise answers traceable to their source."
+      },
+      {
+        "title": "Integration with your systems",
+        "desc": "Connection to CRM, ERP, databases and APIs, so the AI can query and act on information where it already lives."
+      },
+      {
+        "title": "Deployment and evolution",
+        "desc": "From scoping the use case to evaluating answer quality and continuously improving the solution."
+      }
+    ],
+    "flowTitle": "HOW RAG WORKS",
+    "flow": [
+      "Your data",
+      "Indexing",
+      "Language model",
+      "Assistant"
+    ],
+    "flowCaption": "The model answers from your company’s information, not only from general knowledge.",
+    "proof": "Our own experience building AI products:",
+    "proofLink": "JuriOne and Upsee",
+    "cta": "Talk about AI"
+  },
+  "consent": {
+    "label": "Cookies",
+    "title": "Analytics cookies",
+    "text": "We use Google Analytics and Hotjar cookies to understand how the site is used and improve it. They are only enabled if you accept.",
+    "accept": "Accept",
+    "reject": "Decline",
+    "more": "Privacy Policy"
+  },
+  "related": {
+    "eyebrow": "See also",
+    "title": "Other WA Coders solutions",
+    "items": {
+      "sap": {
+        "title": "SAP/CRM Customization",
+        "desc": "Payments approved by authority level, pipeline and reporting on SAP Business One and CRM C4C.",
+        "cta": "Explore the SAP/CRM solution"
+      },
+      "dynamics": {
+        "title": "Dynamics/CRM Customization",
+        "desc": "Dynamics 365 clients, projects and financial data in tailored dashboards.",
+        "cta": "Explore the Dynamics/CRM solution"
+      },
+      "ai": {
+        "title": "AI, RAG and chatbots",
+        "desc": "Assistants and chatbots that answer from your company’s data and documents.",
+        "cta": "Explore the AI solution"
+      }
+    }
+  }
 }

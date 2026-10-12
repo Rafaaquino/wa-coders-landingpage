@@ -4,7 +4,9 @@ import Hero from '../components/home/Hero.astro';
 import Services from '../components/home/Services.astro';
 import Features from '../components/home/Features.astro';
 import Portfolio from '../components/home/Portfolio.astro';
+import AiSection from '../components/home/AiSection.astro';
 import SapCrmTeaser from '../components/home/SapCrmTeaser.astro';
+import DynamicsTeaser from '../components/home/DynamicsTeaser.astro';
 import Process from '../components/home/Process.astro';
 import Technologies from '../components/home/Technologies.astro';
 import Faq from '../components/Faq.astro';
@@ -12,13 +14,14 @@ import CtaBanner from '../components/home/CtaBanner.astro';
 import Contact from '../components/home/Contact.astro';
 import { home } from '../i18n';
 import type { Locale } from '../i18n/locales';
-import { servicesSchema, faqSchema, portfolioSchema } from '../lib/schema';
+import { servicesSchema, faqSchema, portfolioSchema, pageServiceSchema } from '../lib/schema';
 
 interface Props { lang: Locale }
 const { lang } = Astro.props;
 const t = home[lang];
 const schema = [
   ...servicesSchema(t.services.items, lang),
+  pageServiceSchema(t.ai.serviceName, t.ai.lede, lang, '#ai'),
   portfolioSchema(t.portfolio.items),
   faqSchema(t.faq.items, lang),
 ];
@@ -26,13 +29,15 @@ const schema = [
 
 <Layout lang={lang} t={t} page="" title={t.meta.title} description={t.meta.description} schema={schema}>
   <Hero t={t.hero} portfolio={t.portfolio} />
-  <Services t={t.services} />
+  <Services t={t.services} lang={lang} nav={t.nav} />
   <Features t={t.features} />
   <Portfolio t={t.portfolio} lang={lang} />
+  <AiSection t={t.ai} />
   <SapCrmTeaser t={t.sapTeaser} lang={lang} />
+  <DynamicsTeaser t={t.dynamicsTeaser} lang={lang} />
   <Process t={t.process} />
   <Technologies t={t.tech} />
   <Faq t={t.faq} />
   <CtaBanner t={t.cta} />
-  <Contact t={t.contact} />
+  <Contact t={t.contact} lang={lang} />
 </Layout>

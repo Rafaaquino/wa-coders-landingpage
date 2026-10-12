@@ -15,8 +15,7 @@ const links = [
   { href: `${home}#why`, label: t.why },
   { href: `${home}#portfolio`, label: t.portfolio },
   { href: localePath(lang, 'sap-crm/'), label: t.sap, current: page === 'sap-crm/' },
-  { href: `${home}#process`, label: t.process },
-  { href: `${home}#tech`, label: t.tech },
+  { href: localePath(lang, 'dynamics-crm/'), label: t.dynamics, current: page === 'dynamics-crm/' },
   { href: `${home}#contact`, label: t.contact },
 ];
 ---
@@ -25,7 +24,7 @@ const links = [
   <div class="mx-auto flex max-w-container items-center justify-between gap-3 px-4 py-3 sm:px-6 md:px-10">
     <a href={home} class="flex shrink-0 items-center gap-2 font-display text-lg font-black text-ink">
       <img src={site.logo} alt="WA Coders" width="36" height="36" class="h-9 w-9" />
-      <span>WA Coders</span>
+      <span class="max-[359px]:hidden">WA Coders</span>
     </a>
 
     <nav aria-label={t.main} class="hidden items-center gap-6 text-sm font-medium text-muted lg:flex">
@@ -45,6 +44,7 @@ const links = [
             <a
               href={localePath(l, page)}
               hreflang={l}
+              data-lang-switch={l}
               lang={l}
               aria-current={l === lang ? 'true' : undefined}
               class={`rounded-full px-2 py-1 font-mono text-[11px] font-semibold sm:px-2.5 ${l === lang ? 'bg-white text-ink shadow-sm' : 'text-muted hover:text-ink'}`}

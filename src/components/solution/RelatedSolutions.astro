@@ -1,0 +1,35 @@
+---
+import { localePath, type Locale } from '../../i18n/locales';
+
+interface Props { t: any; lang: Locale; current: 'sap' | 'dynamics' }
+const { t, lang, current } = Astro.props;
+
+// Links internos para as outras soluções (a página atual fica de fora)
+const hrefs: Record<string, string> = {
+  sap: localePath(lang, 'sap-crm/'),
+  dynamics: localePath(lang, 'dynamics-crm/'),
+  ai: `${localePath(lang)}#ai`,
+};
+const keys = ['sap', 'dynamics', 'ai'].filter((k) => k !== current);
+---
+
+<section class="bg-surface py-20">
+  <div class="mx-auto max-w-container px-6 md:px-10">
+    <p class="mb-3.5 font-mono text-xs uppercase tracking-wider text-accent2">{t.eyebrow}</p>
+    <h2 class="max-w-[26ch] text-[28px]">{t.title}</h2>
+
+    <ul class="mt-9 grid grid-cols-1 gap-5 md:grid-cols-2">
+      {
+        keys.map((k) => (
+          <li>
+            <a href={hrefs[k]} class="group block h-full rounded-xl border border-line bg-white p-6 transition hover:-translate-y-1 hover:shadow-[0_14px_30px_-18px_rgba(14,23,38,0.35)]">
+              <h3 class="mb-1.5 text-[17px] font-extrabold">{t.items[k].title}</h3>
+              <p class="text-[14px] text-muted">{t.items[k].desc}</p>
+              <p class="mt-4 text-[13.5px] font-semibold text-accent2 group-hover:underline">{t.items[k].cta} →</p>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</section>

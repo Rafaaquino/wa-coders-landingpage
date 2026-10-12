@@ -1,10 +1,10 @@
 # WA Coders — full reference for LLMs
 
-Source of truth: https://www.wacoders.com/ (Portuguese), https://www.wacoders.com/en/ (English), https://www.wacoders.com/es/ (Spanish).
+Source of truth: https://wacoders.com/ (Portuguese), https://wacoders.com/en/ (English), https://wacoders.com/es/ (Spanish).
 
 ## What WA Coders is
 
-WA Coders is a software house with offices in Miami, FL (601 Brickell Key Drive, Miami, FL 33131) and São Paulo, Brazil (1550 Av. Chucri Zaidan). It works with companies in the United States, Europe and Brazil. The team is senior, with professionals who have more than 10 years of experience, working in time zones that overlap with the US and Europe, communicating fluently in English and documenting every handoff.
+WA Coders is a software engineering company with offices in Miami, FL (601 Brickell Key Drive, Miami, FL 33131) and São Paulo, Brazil (1550 Av. Chucri Zaidan). It works with companies in the United States, Europe and Brazil. The team brings professionals with more than 10 years of experience, working in time zones that overlap with the US and Europe, communicating fluently in English and documenting every handoff.
 
 Contact: contact@wacoders.com · WhatsApp +55 11 95437-8106 · Replies in less than 24 hours.
 
@@ -13,12 +13,14 @@ Contact: contact@wacoders.com · WhatsApp +55 11 95437-8106 · Replies in less t
 1. Custom Software Development. Full-stack applications built around the client's business logic, from internal tools to customer-facing platforms: architecture, database design, APIs and front-end interfaces, built to scale.
 2. Web Development. Fast, responsive websites and web applications with Angular and React, optimized for conversion, page speed and search visibility.
 3. Mobile App Development. Native and cross-platform iOS and Android apps, from wireframe to App Store and Google Play submission.
-4. Dedicated Development Teams. Senior engineers embedded in the client's team on a flexible monthly contract, with no recruiting process and no long-term commitment; capacity scales up or down with the roadmap.
+4. Dedicated Development Teams. Engineers embedded in the client's team on a flexible monthly contract, with no recruiting process and no long-term commitment; capacity scales up or down with the roadmap.
 5. UX/UI Design. User research, wireframing and interface design in Figma, validated with real users, delivered as production-ready components.
 6. Integrations & Modernization. Connecting CRM, payment gateways, ERP or any third-party system, and migrating legacy platforms to modern stacks without disrupting operations.
 7. SAP & CRM Customization. See the section below.
+8. Dynamics & CRM Customization. See the section below.
+9. AI Implementation (RAG and chatbots). See the section below.
 
-## SAP Business One and CRM C4C customization (https://www.wacoders.com/en/sap-crm/)
+## SAP Business One and CRM C4C customization (https://wacoders.com/en/sap-crm/)
 
 SAP Business One and CRM systems hold the data a company needs, but are not built for a quick, everyday look at what matters. WA Coders builds a customization layer on top of the client's existing SAP Business One and SAP CRM (C4C) data, so teams consult reports, payments, clients and projects without digging through menus or exporting spreadsheets. It does not replace SAP: it connects and organizes what SAP already processes, with no data migration.
 
@@ -31,6 +33,30 @@ What it covers:
 - Reports and dashboards pulled straight from SAP, with no manual exports.
 - Security and audit: every payment, approval and receipt is logged with user, role and date; JWT authentication; role-based permissions; attached receipts.
 - Multi-company view in a single dashboard for groups with more than one legal entity.
+
+## Dynamics 365 / CRM data visualization customization (https://wacoders.com/en/dynamics-crm/)
+
+Microsoft Dynamics 365 / CRM holds the data about a company's clients and projects, but does not always present what managers need to see every day. WA Coders builds a visualization layer on top of the client's Dynamics 365 / CRM data and financial systems, so teams can follow clients, projects and financial results in tailored dashboards, without switching between screens or exporting spreadsheets. It does not replace Dynamics: it connects and organizes what Dynamics already records. Each dashboard is designed around the decisions the company needs to make.
+
+What it covers:
+- Client views: history, contracts and relationship for each client, read from Dynamics.
+- Project views: scope, deadline, budget and progress, linked to the client and the financial result.
+- Financial data: revenue, costs, receivables and margin by client, contract and project, combined with CRM data.
+- Six views: pipeline and opportunities, financial data, projects, indicators by area, client timeline and executive dashboards.
+
+Microsoft and Dynamics 365 are registered trademarks of Microsoft Corporation. WA Coders is not affiliated with Microsoft.
+
+## AI implementation: RAG and chatbots (https://wacoders.com/en/#ai)
+
+WA Coders implements artificial intelligence solutions and integrates them with the systems a company already uses. The focus is on assistants and chatbots that answer from the company's own documents and data using RAG (retrieval-augmented generation), instead of generic replies.
+
+What it covers:
+- Chatbots and virtual assistants: customer support and internal lookup in natural language, with answers grounded in the company's information.
+- RAG over company data: information retrieval across documents, knowledge bases and systems, combined with language models such as Claude (Anthropic) and GPT (OpenAI), for precise answers traceable to their source.
+- Integration with systems: CRM, ERP, databases and APIs, so the AI can query and act on information where it already lives.
+- Deployment and evolution: from scoping the use case to evaluating answer quality and continuous improvement.
+
+WA Coders also builds its own AI products: JuriOne (legal practice management with AI) and Upsee (computer vision for retail analytics).
 
 ## Products built by WA Coders
 
@@ -46,15 +72,15 @@ What it covers:
 
 ## Technologies
 
-Angular, React, Node.js, Java, .NET, React Native, Flutter, Swift, Android, MongoDB, MySQL, Docker, AWS, Azure, Google Cloud, WordPress.
+Angular, React, TypeScript, Node.js, Python, Java, .NET, React Native, Flutter, Swift, Android, MongoDB, MySQL, PostgreSQL, Docker, AWS, Azure, Google Cloud, WordPress, Figma, SAP Business One / C4C, Microsoft Dynamics 365, and AI models such as Claude (Anthropic) and GPT (OpenAI).
 
 ## FAQ
 
 Q: How does the WA Coders nearshore model work?
-A: A senior team with offices in Miami and São Paulo, working in the client's time zone in the US, Europe or Brazil, with real-time collaboration, fluent English communication and documented handoffs.
+A: A team with offices in Miami and São Paulo, working in the client's time zone in the US, Europe or Brazil, with real-time collaboration, fluent English communication and documented handoffs.
 
 Q: How do I hire a dedicated team?
-A: Senior engineers join the client's team on a flexible monthly contract, with no recruiting process or long-term commitment.
+A: Engineers join the client's team on a flexible monthly contract, with no recruiting process or long-term commitment.
 
 Q: How do I request a quote?
 A: Use the contact form or WhatsApp. WA Coders replies in less than 24 hours.

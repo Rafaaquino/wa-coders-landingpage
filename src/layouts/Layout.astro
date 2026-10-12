@@ -2,6 +2,8 @@
 import '../styles/global.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import LangSuggest from '../components/LangSuggest.astro';
+import ConsentBanner from '../components/ConsentBanner.astro';
 import { locales, localePath, hreflang, ogLocale, type Locale } from '../i18n/locales';
 import { site } from '../site';
 import { organizationSchema, websiteSchema } from '../lib/schema';
@@ -16,16 +18,17 @@ interface Props {
   description: string;
   /** Nós extras do JSON-LD (@graph) */
   schema?: Record<string, unknown>[];
+  /** Páginas que não devem ser indexadas (ex.: 404): sem canonical, hreflang nem JSON-LD */
+  noindex?: boolean;
 }
 
-const { lang, t, page = '', title, description, schema = [] } = Astro.props;
+const { lang, t, page = '', title, description, schema = [], noindex = false } = Astro.props;
 const canonical = new URL(localePath(lang, page), site.url).toString();
 const ogImage = new URL(site.ogImage, site.url).toString();
 const graph = {
   '@context': 'https://schema.org',
   '@graph': [organizationSchema(lang, t.meta.description), websiteSchema(lang), ...schema],
 };
-const { ga4, gtm, hotjar } = site.analytics;
 ---
 
 <!doctype html>
@@ -35,12 +38,19 @@ const { ga4, gtm, hotjar } = site.analytics;
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
     <meta name="description" content={description} />
-    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1" />
+    <meta name="robots" content={noindex ? 'noindex, follow' : 'index, follow, max-image-preview:large, max-snippet:-1'} />
     <meta name="theme-color" content="#0e1726" />
     <meta name="author" content={site.name} />
-    <link rel="canonical" href={canonical} />
-    {locales.map((l) => <link rel="alternate" hreflang={hreflang[l]} href={new URL(localePath(l, page), site.url).toString()} />)}
-    <link rel="alternate" hreflang="x-default" href={new URL(localePath('pt', page), site.url).toString()} />
+    {
+      !noindex && (
+        <>
+          <link rel="canonical" href={canonical} />
+          {locales.map((l) => <link rel="alternate" hreflang={hreflang[l]} href={new URL(localePath(l, page), site.url).toString()} />)}
+          {/* Visitantes de idiomas não atendidos caem em inglês, como na sugestão de idioma */}
+          <link rel="alternate" hreflang="x-default" href={new URL(localePath('en', page), site.url).toString()} />
+        </>
+      )
+    }
 
     <link rel="icon" href="/favicon.ico" sizes="any" />
     <link rel="icon" type="image/png" href="/favicon.png" />
@@ -50,7 +60,7 @@ const { ga4, gtm, hotjar } = site.analytics;
     <meta property="og:site_name" content={site.name} />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
-    <meta property="og:url" content={canonical} />
+    {!noindex && <meta property="og:url" content={canonical} />}
     <meta property="og:image" content={ogImage} />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -63,44 +73,8 @@ const { ga4, gtm, hotjar } = site.analytics;
     <meta name="twitter:image" content={ogImage} />
 
     <link rel="alternate" type="text/plain" href="/llms.txt" title="LLM-readable summary" />
-    <script type="application/ld+json" set:html={JSON.stringify(graph)} />
-
-    <!-- Analytics: carregado só após a primeira interação (ou 5 s), para não pesar no LCP -->
-    <script is:inline define:vars={{ ga4, gtm, hotjar }}>
-      (function () {
-        var loaded = false;
-        function load() {
-          if (loaded) return;
-          loaded = true;
-          window.dataLayer = window.dataLayer || [];
-          window.gtag = function () { window.dataLayer.push(arguments); };
-          window.gtag('js', new Date());
-          window.gtag('config', ga4);
-          var g = document.createElement('script');
-          g.async = true;
-          g.src = 'https://www.googletagmanager.com/gtag/js?id=' + ga4;
-          document.head.appendChild(g);
-          window.dataLayer.push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
-          var m = document.createElement('script');
-          m.async = true;
-          m.src = 'https://www.googletagmanager.com/gtm.js?id=' + gtm;
-          document.head.appendChild(m);
-          (function (h, o, t, j, a, r) {
-            h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments); };
-            h._hjSettings = { hjid: hotjar, hjsv: 6 };
-            a = o.getElementsByTagName('head')[0];
-            r = o.createElement('script');
-            r.async = 1;
-            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-            a.appendChild(r);
-          })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
-        }
-        ['pointerdown', 'keydown', 'scroll', 'touchstart'].forEach(function (e) {
-          window.addEventListener(e, load, { once: true, passive: true });
-        });
-        setTimeout(load, 5000);
-      })();
-    </script>
+    {!noindex && <script type="application/ld+json" set:html={JSON.stringify(graph)} />}
+    <!-- Analytics (GA4, GTM, Hotjar) só são carregados após o consentimento: veja src/scripts/consent.ts -->
   </head>
   <body class="font-body antialiased">
     <a href="#main" class="sr-only z-50 rounded-lg bg-ink px-4 py-2 text-sm text-white focus:not-sr-only focus:fixed focus:left-4 focus:top-4">{t.skip}</a>
@@ -109,6 +83,8 @@ const { ga4, gtm, hotjar } = site.analytics;
       <slot />
     </main>
     <Footer lang={lang} t={t.footer} nav={t.nav} />
+    <ConsentBanner lang={lang} t={t.consent} />
+    <LangSuggest lang={lang} page={page} />
 
     <a
       href={site.whatsapp}

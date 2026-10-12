@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "title": "Política de Privacidade | WA Coders",
+    "description": "Como a WA Coders coleta, usa e protege dados pessoais neste site: formulários, cookies de análise, seus direitos e como falar conosco."
+  },
+  "breadcrumb": "Início",
+  "title": "Política de Privacidade",
+  "updatedLabel": "Última atualização",
+  "updated": "11 de outubro de 2026",
+  "intro": "Esta política explica como a WA Coders trata os dados pessoais de quem visita o site wacoders.com ou entra em contato conosco, em conformidade com a Lei Geral de Proteção de Dados (LGPD, Lei nº 13.709/2018) e, quando aplicável, com o Regulamento Geral de Proteção de Dados da União Europeia (GDPR).",
+  "sections": [
+    {
+      "id": "controlador",
+      "title": "Quem é o responsável pelos dados",
+      "paragraphs": [
+        "A WA Coders é a responsável pelo tratamento dos dados pessoais coletados neste site.",
+        "Escritório em Miami: 601 Brickell Key Drive, Miami, FL 33131, EUA.",
+        "Escritório em São Paulo: Av. Chucri Zaidan, 1550, São Paulo, Brasil.",
+        "Para qualquer assunto de privacidade, escreva para contact@wacoders.com."
+      ]
+    },
+    {
+      "id": "dados",
+      "title": "Quais dados coletamos",
+      "items": [
+        "Dados que você informa nos formulários: nome, e-mail, assunto e mensagem. Nos formulários de solicitação de proposta das páginas SAP/CRM e Dynamics/CRM, também empresa, cargo, telefone, se você já usa SAP Business One ou Dynamics 365 e o assunto de interesse.",
+        "Dados técnicos enviados junto com o formulário: idioma do site e página de origem.",
+        "Dados de navegação, coletados somente se você aceitar os cookies de análise: endereço IP, tipo de dispositivo, navegador, páginas visitadas, tempo de permanência, cliques, rolagem e origem do acesso.",
+        "Preferências guardadas no seu navegador: idioma escolhido e a sua decisão sobre cookies.",
+        "Ao clicar no botão de WhatsApp, você é levado ao aplicativo e a conversa passa a seguir a política de privacidade do WhatsApp."
+      ]
+    },
+    {
+      "id": "finalidades",
+      "title": "Para que usamos os dados e em que base legal",
+      "table": {
+        "head": [
+          "Finalidade",
+          "Base legal"
+        ],
+        "rows": [
+          [
+            "Responder a mensagens e solicitações de proposta e conduzir a negociação",
+            "Procedimentos preliminares relacionados a contrato e legítimo interesse (LGPD, art. 7º, V e IX; GDPR, art. 6(1)(b) e (f))"
+          ],
+          [
+            "Entender como o site é usado e melhorá-lo (Google Analytics e Hotjar)",
+            "Consentimento (LGPD, art. 7º, I; GDPR, art. 6(1)(a))"
+          ],
+          [
+            "Segurança do site e prevenção de abuso e spam",
+            "Legítimo interesse"
+          ],
+          [
+            "Cumprir obrigações legais e regulatórias",
+            "Obrigação legal"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "cookies",
+      "title": "Cookies e tecnologias semelhantes",
+      "paragraphs": [
+        "Os cookies de análise só são ativados depois que você os aceita no aviso exibido no site. Você pode recusar, e o site continua funcionando normalmente. Para mudar de ideia, use \"Preferências de cookies\" no rodapé.",
+        "O site também usa o armazenamento local do navegador (que não são cookies) para lembrar o idioma escolhido e a sua decisão sobre cookies."
+      ],
+      "table": {
+        "head": [
+          "Nome",
+          "Provedor",
+          "Finalidade",
+          "Duração padrão"
+        ],
+        "rows": [
+          [
+            "_ga e _ga_*",
+            "Google Analytics",
+            "Distinguir visitantes e sessões para estatísticas de uso",
+            "Até 2 anos"
+          ],
+          [
+            "_hjSessionUser_* e _hjSession_*",
+            "Hotjar",
+            "Identificar o visitante e a sessão para mapas de calor e gravações",
+            "1 ano e 30 minutos"
+          ],
+          [
+            "wac-lang e wac-consent (armazenamento local)",
+            "WA Coders",
+            "Lembrar o idioma e a decisão sobre cookies",
+            "Até você limpar os dados do navegador"
+          ]
+        ]
+      },
+      "notes": [
+        "As durações indicadas são os padrões de cada provedor e podem ser alteradas por eles."
+      ]
+    },
+    {
+      "id": "compartilhamento",
+      "title": "Com quem compartilhamos",
+      "paragraphs": [
+        "Não vendemos dados pessoais. Compartilhamos dados apenas com prestadores de serviço que nos ajudam a operar o site, nos limites do necessário:"
+      ],
+      "items": [
+        "Resend: envio dos e-mails gerados pelos formulários.",
+        "Vercel: hospedagem da API que recebe os formulários.",
+        "GitHub: hospedagem do site.",
+        "Google (Analytics e Tag Manager) e Hotjar: análise de uso, somente com o seu consentimento."
+      ],
+      "notes": [
+        "Também podemos compartilhar dados com autoridades quando houver obrigação legal ou ordem judicial."
+      ]
+    },
+    {
+      "id": "transferencias",
+      "title": "Transferências internacionais",
+      "paragraphs": [
+        "Os prestadores acima podem tratar dados fora do Brasil, inclusive nos Estados Unidos e na União Europeia. Nesses casos, buscamos garantir um nível adequado de proteção, por meio de cláusulas contratuais padrão, decisões de adequação ou outros mecanismos previstos na LGPD e no GDPR, conforme aplicável."
+      ]
+    },
+    {
+      "id": "retencao",
+      "title": "Por quanto tempo guardamos os dados",
+      "paragraphs": [
+        "Mensagens e solicitações de proposta: pelo tempo necessário para atender o seu pedido, acompanhar a relação comercial e cumprir obrigações legais. Depois disso, os dados são excluídos ou anonimizados.",
+        "Dados de análise: pelo período de retenção configurado em cada ferramenta."
+      ]
+    },
+    {
+      "id": "direitos",
+      "title": "Seus direitos",
+      "paragraphs": [
+        "Você pode, a qualquer momento, solicitar:"
+      ],
+      "items": [
+        "confirmação de que tratamos os seus dados e acesso a eles;",
+        "correção de dados incompletos, inexatos ou desatualizados;",
+        "anonimização, bloqueio ou eliminação de dados desnecessários ou tratados em desconformidade;",
+        "portabilidade dos dados;",
+        "eliminação dos dados tratados com base no seu consentimento;",
+        "informação sobre com quem compartilhamos os seus dados;",
+        "revogação do consentimento, sem prejuízo do tratamento já realizado;",
+        "oposição ao tratamento e, na União Europeia, limitação do tratamento."
+      ],
+      "notes": [
+        "Para exercer esses direitos, escreva para contact@wacoders.com. Respondemos nos prazos previstos em lei. Você também pode reclamar à Autoridade Nacional de Proteção de Dados (ANPD), no Brasil, ou à autoridade de proteção de dados do seu país, na União Europeia."
+      ]
+    },
+    {
+      "id": "seguranca",
+      "title": "Segurança",
+      "paragraphs": [
+        "Adotamos medidas técnicas e organizacionais para proteger os dados, como conexão criptografada (HTTPS) e acesso restrito às mensagens recebidas. Nenhum sistema é totalmente imune a incidentes e, se ocorrer um que possa afetar você, comunicaremos conforme exige a lei."
+      ]
+    },
+    {
+      "id": "menores",
+      "title": "Menores de idade",
+      "paragraphs": [
+        "O site não é direcionado a menores de 18 anos e não coletamos intencionalmente dados de menores."
+      ]
+    },
+    {
+      "id": "alteracoes",
+      "title": "Alterações desta política",
+      "paragraphs": [
+        "Podemos atualizar esta política. A data da última atualização aparece no topo desta página."
+      ]
+    },
+    {
+      "id": "contato",
+      "title": "Fale conosco",
+      "paragraphs": [
+        "Dúvidas sobre esta política ou sobre os seus dados: contact@wacoders.com."
+      ]
+    }
+  ]
+}

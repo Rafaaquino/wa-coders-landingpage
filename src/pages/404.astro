@@ -1,0 +1,33 @@
+---
+// O GitHub Pages serve este arquivo (404.html) para qualquer endereço inexistente, em qualquer idioma.
+// Por isso a mensagem é trilíngue. Não é indexada.
+import Layout from '../layouts/Layout.astro';
+import { home } from '../i18n';
+import { localePath } from '../i18n/locales';
+
+const t = home.pt;
+const links = [
+  { href: localePath('pt'), label: 'Português — Página inicial' },
+  { href: localePath('en'), label: 'English — Home' },
+  { href: localePath('es'), label: 'Español — Inicio' },
+];
+---
+
+<Layout lang="pt" t={t} page="" title="404 | WA Coders" description="Página não encontrada · Page not found · Página no encontrada" noindex>
+  <section class="py-24 md:py-32">
+    <div class="mx-auto max-w-[640px] px-6 text-center md:px-10">
+      <p class="font-mono text-sm font-semibold text-accent-text">404</p>
+      <h1 class="mt-3 text-[2rem] leading-tight md:text-[2.6rem]">Página não encontrada</h1>
+      <p class="mt-3 text-[16px] text-muted">Page not found · Página no encontrada</p>
+      <ul class="mt-10 flex flex-col items-center gap-3">
+        {
+          links.map((l) => (
+            <li>
+              <a href={l.href} class="inline-block rounded-lg bg-accent px-6 py-3 text-sm font-semibold text-ink shadow-sm transition hover:-translate-y-px hover:bg-accent-hover hover:shadow-md">{l.label}</a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </section>
+</Layout>

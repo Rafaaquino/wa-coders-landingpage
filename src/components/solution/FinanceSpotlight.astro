@@ -41,6 +41,8 @@ const rows = [
       }
     </div>
 
+    {t.caption && <p class="mt-4 text-center text-xs italic text-muted">{t.caption}</p>}
+
     <div class="mt-14 flex flex-wrap items-center justify-center gap-x-12 gap-y-5 border-t border-accent2/20 pt-10">
       <div class="text-center"><strong class="block font-mono text-2xl font-bold">{t.trioValue1}</strong><span class="text-xs text-muted">{t.trioLabel1}</span></div>
       <div class="text-center"><strong class="block font-mono text-2xl font-bold">{t.trioValue2}</strong><span class="text-xs text-muted">{t.trioLabel2}</span></div>

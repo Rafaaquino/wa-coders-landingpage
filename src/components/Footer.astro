@@ -15,9 +15,8 @@ const links = [
   { href: `${home}#services`, label: nav.services },
   { href: `${home}#portfolio`, label: nav.portfolio },
   { href: localePath(lang, 'sap-crm/'), label: nav.sap },
-  { href: `${home}#process`, label: nav.process },
-  { href: `${home}#tech`, label: nav.tech },
-  { href: `${home}#contact`, label: nav.contact },
+  { href: localePath(lang, 'dynamics-crm/'), label: nav.dynamics },
+  { href: localePath(lang, 'privacy/'), label: t.privacy },
 ];
 ---
 
@@ -33,24 +32,25 @@ const links = [
 
       <div class="flex flex-wrap gap-12">
         <nav aria-label={t.company}>
-          <h2 class="mb-3 font-body text-xs font-semibold uppercase tracking-wider text-muted">{t.company}</h2>
+          <p class="mb-3 font-body text-xs font-semibold uppercase tracking-wider text-muted">{t.company}</p>
           {links.map((l) => <a href={l.href} class="mb-2 block text-[13.5px] text-ink hover:text-accent-text">{l.label}</a>)}
         </nav>
         <div>
-          <h2 class="mb-3 font-body text-xs font-semibold uppercase tracking-wider text-muted">{t.contactLabel}</h2>
+          <p class="mb-3 font-body text-xs font-semibold uppercase tracking-wider text-muted">{t.contactLabel}</p>
           <a href={`mailto:${site.email}`} class="mb-2 block text-[13.5px] text-ink hover:text-accent-text">{site.email}</a>
           <a href={site.whatsapp} target="_blank" rel="noopener" class="mb-2 block text-[13.5px] text-ink hover:text-accent-text">{t.whatsappLabel} {site.phoneDisplay}</a>
         </div>
         <address class="not-italic">
-          <h2 class="mb-3 font-body text-xs font-semibold uppercase tracking-wider text-muted">{t.offices}</h2>
+          <p class="mb-3 font-body text-xs font-semibold uppercase tracking-wider text-muted">{t.offices}</p>
           <p class="mb-2 max-w-[28ch] text-[13.5px] text-ink">Miami — {site.offices.miami.line}</p>
           <p class="mb-2 max-w-[28ch] text-[13.5px] text-ink">São Paulo — {site.offices.saoPaulo.line}</p>
         </address>
       </div>
     </div>
 
-    <div class="mt-12 border-t border-line pt-5 text-xs text-muted">
+    <div class="mt-12 flex flex-wrap items-center justify-between gap-x-6 gap-y-2 border-t border-line pt-5 text-xs text-muted">
       <span>© {year} {site.name}. {t.rights}</span>
+      <button type="button" data-consent-open class="hover:text-ink">{t.cookies}</button>
     </div>
   </div>
 </footer>

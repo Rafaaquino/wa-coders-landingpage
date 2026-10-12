@@ -1,0 +1,264 @@
+{
+  "meta": {
+    "title": "Dynamics 365 CRM: clientes, proyectos y finanzas | WA Coders",
+    "description": "Personalización de la visualización de datos de Dynamics 365 / CRM: clientes, proyectos y datos financieros en paneles a medida, sin exportar planillas."
+  },
+  "breadcrumb": "Inicio",
+  "intro": {
+    "eyebrow": "WA Coders · Personalización Dynamics / CRM",
+    "title": "Personalización de la visualización de datos de Dynamics / CRM",
+    "subtitle": "Dynamics guarda todo sobre tus clientes y proyectos, pero no siempre muestra lo que el gestor necesita ver día a día.",
+    "desc": "Construimos una capa de visualización sobre los datos de tu Dynamics 365 / CRM y de tus sistemas financieros, para que tu equipo siga clientes, proyectos y resultados en paneles a medida, sin navegar entre pantallas separadas ni exportar planillas. Cada panel se diseña a partir de las decisiones que tu empresa necesita tomar.",
+    "badge": "Vistas a medida para tu operación",
+    "items": [
+      {
+        "title": "Paneles e informes",
+        "desc": "Indicadores comerciales, operativos y financieros actualizados a partir de tus datos, sin exportación manual."
+      },
+      {
+        "title": "Datos financieros",
+        "desc": "Facturación, costos y margen junto a cada cliente y proyecto, en la misma vista."
+      },
+      {
+        "title": "Clientes",
+        "desc": "Historial, contratos y relación de cada cliente, directo desde Dynamics."
+      },
+      {
+        "title": "Proyectos",
+        "desc": "Alcance, plazo, presupuesto y avance de cada proyecto, vinculados al cliente y al resultado financiero."
+      }
+    ]
+  },
+  "hero": {
+    "eyebrow": "Para empresas que usan Microsoft Dynamics 365 / CRM",
+    "title": "Clientes, proyectos y finanzas de tu Dynamics en una única vista.",
+    "lede": "Personalizamos la visualización de los datos de tu Dynamics 365 / CRM para que los gestores sigan clientes, proyectos y resultados financieros en paneles a medida, sin planilla cada semana.",
+    "ctaPrimary": "Solicitar una propuesta",
+    "ctaGhost": "Ver cómo funciona ↓",
+    "trust": "Conectado al Dynamics que tu empresa ya usa · Sin cambiar de CRM",
+    "mockUrl": "panel.tuempresa.com/vision-general",
+    "stat1Label": "Ingresos del mes",
+    "stat1Value": "US$ 256 mil",
+    "stat1Delta": "▲ 8% vs. mes anterior",
+    "stat2Label": "Proyectos activos",
+    "stat2Value": "24",
+    "stat2Delta": "3 requieren atención",
+    "stat3Label": "Margen promedio",
+    "stat3Value": "31%",
+    "stat3Delta": "▲ 2pp en el trimestre",
+    "chartTitle": "INGRESOS POR CLIENTE",
+    "bar1": "Alfa",
+    "bar2": "Beta",
+    "bar3": "Gamma",
+    "bar4": "Delta",
+    "tableTitle": "PROYECTOS DESTACADOS",
+    "row1Name": "Proyecto Aurora",
+    "row1Status": "En plazo",
+    "row2Name": "Proyecto Orion",
+    "row2Status": "Atención",
+    "row3Name": "Proyecto Vega",
+    "row3Status": "En revisión",
+    "caption": "Interfaz ilustrativa — ejemplo de cómo aparecen los datos en el panel."
+  },
+  "finance": {
+    "eyebrow": "DYNAMICS 365 · CRM · DATOS FINANCIEROS",
+    "title": "Del cliente al resultado financiero, en la misma pantalla.",
+    "lede": "Cruza los datos de clientes y proyectos de Dynamics con facturación, costos y margen, y sigue el presupuesto contra lo ejecutado sin armar una planilla en el medio.",
+    "trioValue1": "Clientes",
+    "trioLabel1": "relación y contratos en una vista",
+    "trioValue2": "Proyectos",
+    "trioLabel2": "presupuesto versus ejecutado",
+    "trioValue3": "Finanzas",
+    "trioLabel3": "ingresos, costos y margen",
+    "flowTitle": "DE LA INFORMACIÓN A LA DECISIÓN",
+    "flow1": "Cliente",
+    "flow2": "Proyecto",
+    "flow3": "Financiero",
+    "flow4": "Vista consolidada",
+    "row1Name": "Proyecto Aurora · presupuesto vs. ejecutado",
+    "row1Status": "Dentro del presupuesto",
+    "row2Name": "Contrato Beta · facturación del mes",
+    "row2Status": "Atención",
+    "row3Name": "Cuenta Gamma · cuentas por cobrar",
+    "row3Status": "Vencida",
+    "caption": "Ejemplos ilustrativos de cómo se presenta la información."
+  },
+  "pains": {
+    "eyebrow": "Qué pasa sin una capa de visualización",
+    "title": "Dynamics tiene los datos. Falta la vista que el gestor necesita.",
+    "items": [
+      {
+        "title": "El informe se vuelve una planilla cada semana",
+        "desc": "Alguien exporta Dynamics, lo cruza con finanzas en Excel y rehace todo el mes siguiente."
+      },
+      {
+        "title": "Clientes, proyectos y finanzas no se conectan",
+        "desc": "El CRM muestra la relación, finanzas muestra el resultado y nadie ve ambos lado a lado."
+      },
+      {
+        "title": "Decisiones con información atrasada",
+        "desc": "Cuando el informe está listo, la situación del cliente o del proyecto ya cambió."
+      }
+    ]
+  },
+  "how": {
+    "eyebrow": "Cómo funciona",
+    "title": "Una capa sobre lo que ya tienes — no un CRM nuevo.",
+    "steps": [
+      {
+        "num": "01",
+        "title": "Dynamics 365 + datos financieros",
+        "desc": "Tus datos de clientes, proyectos y finanzas siguen exactamente donde están hoy."
+      },
+      {
+        "num": "02",
+        "title": "WA Coders organiza y cruza",
+        "desc": "Clientes, proyectos y cifras financieras reciben paneles a medida, actualizados desde las fuentes originales."
+      },
+      {
+        "num": "03",
+        "title": "Decisiones sin planillas",
+        "desc": "Vistas listas por área, con los indicadores que sigue tu gestión, sin exportar nada manualmente."
+      }
+    ],
+    "reassure": "No reemplaza a Dynamics. Conecta y organiza lo que ya registra."
+  },
+  "integrations": {
+    "eyebrow": "FUENTES DE DATOS",
+    "title": "Conectado a los sistemas donde ya está tu información.",
+    "badge": "datos actualizados",
+    "items": [
+      {
+        "tag": "MICROSOFT DYNAMICS 365 / CRM",
+        "title": "Clientes, cuentas y oportunidades siempre actualizados",
+        "desc": "Los datos de clientes, cuentas, contactos y oportunidades se leen desde Dynamics y se muestran en vistas a medida, sin duplicar registros ni cambiar tu proceso actual.",
+        "flow": "Dynamics 365 → Clientes y Oportunidades"
+      },
+      {
+        "tag": "DATOS FINANCIEROS",
+        "title": "Facturación y costos junto a cada proyecto",
+        "desc": "Los datos financieros de tu ERP o sistema contable se cruzan con clientes y proyectos, para comparar presupuesto, ingresos y costos en la misma pantalla.",
+        "flow": "Sistema financiero → Proyectos y Clientes"
+      }
+    ]
+  },
+  "modules": {
+    "eyebrow": "Qué sigues en los paneles",
+    "title": "Seis vistas, un único lugar donde mirar.",
+    "items": [
+      {
+        "title": "Pipeline y oportunidades",
+        "desc": "Sigue las oportunidades desde el primer contacto hasta el cierre, directo desde los datos de Dynamics."
+      },
+      {
+        "title": "Datos financieros",
+        "desc": "Facturación, costos, cuentas por cobrar y margen por cliente, contrato y proyecto."
+      },
+      {
+        "title": "Proyectos",
+        "desc": "Presupuesto, plazo y salud de cada proyecto, junto al resultado financiero."
+      },
+      {
+        "title": "Indicadores por área",
+        "desc": "Indicadores comerciales, operativos y financieros en un solo panel."
+      },
+      {
+        "title": "Línea de tiempo del cliente",
+        "desc": "Historial de relación, contratos y proyectos de cada cliente, en orden cronológico."
+      },
+      {
+        "title": "Dashboards ejecutivos",
+        "desc": "Ingresos, margen y cartera de clientes en una vista para la dirección."
+      }
+    ]
+  },
+  "diff": {
+    "eyebrow": "Por qué WA Coders",
+    "headlinePre": "Hecho para quienes ya decidieron ",
+    "headlineAccent": "invertir en Dynamics",
+    "headlinePost": " — y quieren ver mejor lo que ya registra.",
+    "items": [
+      {
+        "bold": "No reemplaza a Dynamics",
+        "rest": "conecta y organiza lo que ya está dentro."
+      },
+      {
+        "bold": "Vistas diseñadas por área",
+        "rest": "comercial, proyectos y finanzas ven lo que importa para cada decisión."
+      },
+      {
+        "bold": "Clientes, proyectos y finanzas lado a lado",
+        "rest": "en una única vista, sin cruzar planillas."
+      },
+      {
+        "bold": "Informes listos",
+        "rest": "sin exportar datos del CRM cada semana."
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "Preguntas frecuentes",
+    "title": "Antes de contactarnos, probablemente quieras saber:",
+    "items": [
+      {
+        "q": "¿Necesito cambiar de CRM para usar la personalización?",
+        "a": "No. La solución se conecta al Dynamics que tu empresa ya usa: organiza y presenta los datos, no reemplaza al CRM."
+      },
+      {
+        "q": "¿Qué datos se pueden visualizar?",
+        "a": "Datos de clientes, cuentas, oportunidades y proyectos de Dynamics, cruzados con datos financieros como facturación, costos y margen. Definimos contigo qué indicadores tienen sentido para cada área."
+      },
+      {
+        "q": "¿Cómo empieza el proyecto?",
+        "a": "Empezamos entendiendo qué decisiones debe tomar tu gestión y qué datos están en Dynamics y en los sistemas financieros. Con eso diseñamos las vistas, las validamos contigo y evolucionamos por etapas."
+      },
+      {
+        "q": "¿WA Coders hace la personalización para mi empresa?",
+        "a": "Sí. Cada panel se diseña y desarrolla a medida de tu operación, con tu identidad visual y las reglas de tu negocio."
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Conversa con WA Coders",
+    "title": "¿Listo para sacar el informe de la planilla?",
+    "lede": "Una conversación con el equipo de WA Coders para entender qué vistas de Dynamics necesita tu gestión.",
+    "bullets": [
+      "Sin compromiso",
+      "Una charla con quienes entienden de CRM y de datos, no un guion genérico"
+    ],
+    "legal": "Microsoft y Dynamics 365 son marcas registradas de Microsoft Corporation. WA Coders no está afiliada a Microsoft.",
+    "subject": "Solicitud de propuesta Dynamics/CRM",
+    "form": {
+      "nameLabel": "Nombre completo",
+      "namePlaceholder": "Nombre y apellido",
+      "companyLabel": "Empresa",
+      "companyPlaceholder": "Nombre de la empresa",
+      "roleLabel": "Cargo",
+      "rolePlaceholder": "Ej.: Director Financiero",
+      "phoneLabel": "Teléfono / WhatsApp",
+      "phonePlaceholder": "+52 55 0000 0000",
+      "emailLabel": "Correo corporativo",
+      "emailPlaceholder": "nombre@suempresa.com",
+      "sapLabel": "¿Ya usas Microsoft Dynamics 365?",
+      "sapOptions": [
+        "Selecciona una opción",
+        "Sí, ya lo uso",
+        "Aún no",
+        "Lo implementaré pronto"
+      ],
+      "subjectLabel": "Asunto de interés",
+      "subjectOptions": [
+        "Selecciona una opción",
+        "Paneles de clientes y proyectos",
+        "Datos financieros y rentabilidad",
+        "Integración con Dynamics 365",
+        "KPIs e informes",
+        "Otro asunto"
+      ],
+      "messageLabel": "Mensaje",
+      "messagePlaceholder": "Cuéntenos un poco sobre lo que necesita",
+      "button": "Solicitar una propuesta",
+      "consent": "Acepto ser contactado por el equipo de WA Coders sobre esta solicitud."
+    }
+  }
+}
